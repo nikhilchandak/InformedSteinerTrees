@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="600" env="3D/Abstract_env.dae" robot="3D/Abstract_robot.dae" runs="2" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="1492.633" tourCost="2985.267" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="1566.328" tourCost="2003.155" timeTaken="600.32" pruned="35" ellipsesRemaining="6" costOverTime="{12.8595: 1654.025, 12.8808: 1653.055, 21.8983: 1653.055, 21.8987: 1649.491, 21.8988: 1649.491, 21.9037: 1649.4177, 21.9053: 1645.8859, 30.8704: 1643.8358, 39.8541: 1637.8486, 48.8594: 1637.5216, 57.882: 1636.7765, 66.9258: 1636.7765, 66.9259: 1636.4464, 85.0836: 1610.2026, 121.6226: 1610.2026, 121.6227: 1608.6937, 130.7866: 1608.6937, 130.7867: 1590.5017, 205.2863: 1589.1693, 252.336: 1573.6403, 367.9373: 1572.5132, 377.6958: 1566.7279, 518.6246: 1566.3284, 598.8229: 1566.3284}"/>
+		<Output spanningTreeLength="1551.265" tourCost="1974.177" timeTaken="593.759" pruned="35" ellipsesRemaining="6" costOverTime="{12.8836: 1635.4992, 21.8911: 1635.4992, 21.8914: 1633.9539, 21.8915: 1633.9539, 21.8934: 1617.2389, 21.8949: 1617.2389, 21.9028: 1595.6995, 30.8949: 1591.8159, 30.895: 1580.8587, 39.8893: 1565.4598, 48.9229: 1558.6371, 121.4645: 1556.532, 195.7494: 1556.532, 195.7495: 1554.5312, 244.0943: 1554.53, 360.017: 1554.2564, 409.3433: 1553.4541, 479.462: 1551.2649, 593.7005: 1551.2649}"/>
+	</Ripple>
+	<SFFstar>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="600.028" costOverTime="{600.028: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="600.001" costOverTime="{600.001: 1000000000.0}"/>
+	</SFFstar>
+	<MultiTRRT>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="610" costOverTime="{610: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="610" costOverTime="{610: 1000000000.0}"/>
+	</MultiTRRT>
+</Benchmark>

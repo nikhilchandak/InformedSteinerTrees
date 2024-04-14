@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="600" env="SF/triang.dae" robot="SF/robot_cylinder_small.dae" runs="2" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="336.247" tourCost="672.494" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="395.173" tourCost="473.832" timeTaken="601.039" pruned="24" ellipsesRemaining="19" costOverTime="{12.9099: 426.5288, 12.91: 415.3877, 12.9101: 411.801, 22.0134: 411.801, 22.0135: 409.3492, 22.0136: 405.3001, 31.096: 401.6825, 31.0961: 401.2597, 40.2049: 401.2597, 40.205: 401.1183, 49.3241: 400.5266, 58.482: 400.5266, 58.4821: 400.1253, 58.4823: 399.538, 67.6477: 396.9714, 142.1881: 396.9714, 142.1882: 396.7072, 161.3018: 396.5937, 210.0548: 396.5937, 210.0549: 396.2331, 269.2886: 395.4007, 350.7505: 395.4007, 350.7506: 395.173, 598.5659: 395.173}"/>
+		<Output spanningTreeLength="392.408" tourCost="467.898" timeTaken="600.675" pruned="24" ellipsesRemaining="19" costOverTime="{12.912: 430.2292, 12.9124: 424.0454, 12.9125: 419.8117, 22.0289: 409.0948, 22.029: 400.5343, 22.0291: 400.5343, 22.0335: 396.7664, 31.1281: 396.3055, 31.1282: 395.5062, 40.2244: 395.2487, 40.2245: 395.2487, 40.2246: 393.3708, 67.7062: 393.0106, 76.9413: 393.0106, 76.9414: 392.4367, 171.5347: 392.4367, 171.5348: 392.4084, 598.3409: 392.4084}"/>
+	</Ripple>
+	<SFFstar>
+		<Output spanningTreeLength="363.107" tourCost="726.214" timeTaken="600" costOverTime="{600: 363.107}"/>
+		<Output spanningTreeLength="370.071" tourCost="740.142" timeTaken="600.002" costOverTime="{600.002: 370.071}"/>
+	</SFFstar>
+	<MultiTRRT>
+		<Output spanningTreeLength="1084.6" tourCost="2169.2" timeTaken="379.026" costOverTime="{379.026: 1084.6}"/>
+		<Output spanningTreeLength="1074.15" tourCost="2148.3" timeTaken="1739.94" costOverTime="{1739.94: 1074.15}"/>
+	</MultiTRRT>
+</Benchmark>

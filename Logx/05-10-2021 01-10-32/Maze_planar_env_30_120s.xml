@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="120" env="2D/Maze_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="5">
+	<SFFstar>
+		<Output spanningTreeLength="442.447" tourCost="884.894" timeTaken="35.373" costOverTime="{35.373: 442.447}"/>
+		<Output spanningTreeLength="432.905" tourCost="865.81" timeTaken="37.154" costOverTime="{37.154: 432.905}"/>
+		<Output spanningTreeLength="444.325" tourCost="888.65" timeTaken="38.372" costOverTime="{38.372: 444.325}"/>
+		<Output spanningTreeLength="441.65" tourCost="883.3" timeTaken="40.752" costOverTime="{40.752: 441.65}"/>
+		<Output spanningTreeLength="432.848" tourCost="865.696" timeTaken="40.542" costOverTime="{40.542: 432.848}"/>
+	</SFFstar>
+	<PotentiallyOptimal spanningTreeLength="523.51" tourCost="1029.646" timeTaken="120.542"/>
+	<LowerBound spanningTreeLength="408.595" tourCost="817.191" timeTaken="1"/>
+</Benchmark>

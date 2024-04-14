@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="120" env="2D/UniqueSolutionMaze_env.dae" robot="2D/UniqueSolutionMaze_robot.dae" runs="20">
+	<Sstar ordering="UB - LB" informed="True">
+		<Output spanningTreeLength="520.654" tourCost="882.283" timeTaken="132.603" pruned="2"/>
+		<Output spanningTreeLength="516.039" tourCost="874.016" timeTaken="120.349" pruned="4"/>
+		<Output spanningTreeLength="515.647" tourCost="875.186" timeTaken="119.972" pruned="4"/>
+		<Output spanningTreeLength="521.376" tourCost="885.024" timeTaken="162.046" pruned="4"/>
+		<Output spanningTreeLength="678.602" tourCost="1090.759" timeTaken="140.839" pruned="1"/>
+		<Output spanningTreeLength="627.414" tourCost="906.271" timeTaken="122.324" pruned="3"/>
+		<Output spanningTreeLength="824.972" tourCost="884.786" timeTaken="131.868" pruned="3"/>
+		<Output spanningTreeLength="904.847" tourCost="1120.164" timeTaken="121.882"/>
+		<Output spanningTreeLength="699.899" tourCost="961.171" timeTaken="162.748" pruned="1"/>
+		<Output spanningTreeLength="696.567" tourCost="893.56" timeTaken="129.359" pruned="3"/>
+		<Output spanningTreeLength="960.923" tourCost="897.0" timeTaken="124.682" pruned="3"/>
+		<Output spanningTreeLength="661.7" tourCost="912.644" timeTaken="121.602" pruned="3"/>
+		<Output spanningTreeLength="515.015" tourCost="877.086" timeTaken="127.955" pruned="4"/>
+		<Output spanningTreeLength="605.962" tourCost="896.96" timeTaken="121.645" pruned="2"/>
+		<Output spanningTreeLength="706.626" tourCost="911.183" timeTaken="135.981" pruned="1"/>
+		<Output spanningTreeLength="527.653" tourCost="885.732" timeTaken="130.026" pruned="3"/>
+		<Output spanningTreeLength="531.089" tourCost="891.374" timeTaken="119.896" pruned="3"/>
+		<Output spanningTreeLength="516.444" tourCost="870.729" timeTaken="119.749" pruned="3"/>
+		<Output spanningTreeLength="532.133" tourCost="891.235" timeTaken="142.961" pruned="1"/>
+		<Output spanningTreeLength="538.002" tourCost="905.4" timeTaken="120.371" pruned="3"/>
+	</Sstar>
+	<PotentiallyOptimal spanningTreeLength="885.506" tourCost="884.556" timeTaken="124.087"/>
+	<LowerBound spanningTreeLength="273.827" tourCost="547.654" timeTaken="1"/>
+	<UninformedSBSstar>
+		<Output spanningTreeLength="567.447" tourCost="920.319" timeTaken="147.183" pruned="1"/>
+		<Output spanningTreeLength="514.255" tourCost="872.959" timeTaken="198.712" pruned="3"/>
+		<Output spanningTreeLength="546.094" tourCost="910.833" timeTaken="146.184" pruned="1"/>
+		<Output spanningTreeLength="895.467" tourCost="905.362" timeTaken="133.161" pruned="2"/>
+		<Output spanningTreeLength="665.669" tourCost="1061.824" timeTaken="223.491" pruned="1"/>
+		<Output spanningTreeLength="987.269" tourCost="1116.664" timeTaken="138.544" pruned="1"/>
+		<Output spanningTreeLength="849.869" tourCost="900.196" timeTaken="131.799" pruned="3"/>
+		<Output spanningTreeLength="830.378" tourCost="883.472" timeTaken="149.846" pruned="3"/>
+		<Output spanningTreeLength="886.317" tourCost="905.204" timeTaken="127.908" pruned="1"/>
+		<Output spanningTreeLength="547.765" tourCost="911.01" timeTaken="129.922" pruned="3"/>
+		<Output spanningTreeLength="515.373" tourCost="876.376" timeTaken="119.862" pruned="4"/>
+		<Output spanningTreeLength="520.427" tourCost="886.183" timeTaken="116.32" pruned="3"/>
+		<Output spanningTreeLength="688.852" tourCost="886.878" timeTaken="132.861" pruned="3"/>
+		<Output spanningTreeLength="522.587" tourCost="885.879" timeTaken="124.291" pruned="3"/>
+		<Output spanningTreeLength="517.441" tourCost="877.679" timeTaken="120.476" pruned="4"/>
+		<Output spanningTreeLength="543.044" tourCost="928.091" timeTaken="123.156" pruned="2"/>
+		<Output spanningTreeLength="846.775" tourCost="879.258" timeTaken="124.808" pruned="1"/>
+		<Output spanningTreeLength="973.317" tourCost="1260.153" timeTaken="120.807" pruned="1"/>
+		<Output spanningTreeLength="1036.489" tourCost="946.757" timeTaken="119.528" pruned="3"/>
+		<Output spanningTreeLength="713.116" tourCost="909.899" timeTaken="138.048" pruned="1"/>
+	</UninformedSBSstar>
+</Benchmark>

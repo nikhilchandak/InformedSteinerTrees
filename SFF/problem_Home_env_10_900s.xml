@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" scale="1">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Points>
+		<Point coord="[75.1871141376177; -282.9701227593222; 114.55620604491631]"/>
+		<Point coord="[-192.3048018760119; -286.33270254706036; 68.01158033569243]"/>
+		<Point coord="[209.8928037292444; -336.2806277923501; 134.35046282707302]"/>
+		<Point coord="[56.228701268512054; -82.38578985344958; 96.15740152293493]"/>
+		<Point coord="[199.81753757708793; -343.689917887176; 79.2370206406462]"/>
+		<Point coord="[-105.66142503461975; -121.29117719646436; 67.03545441933568]"/>
+		<Point coord="[-120.20988497756247; 100.33725986757213; 106.25732058847626]"/>
+		<Point coord="[-87.24793397015259; 23.458407811513553; 142.14946019236615]"/>
+		<Point coord="[74.15218817846232; -306.99311651344107; 103.9463843074955]"/>
+		<Point coord="[-89.05948805367723; 150.9381168283329; 141.92501273046125]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-384" max="325"/>
+		<RangeY min="-371" max="338"/>
+		<RangeZ min="0" max="142"/>
+	</Range>
+	<Robot file="../Instances/3D/Home_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/3D/Home_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="900"/>
+	<Save>
+		<Params file="SFF//Home_env_10_900s.csv" id="SFF*"/>
+		<TSP file="SFF//tsp.tsp"/>
+	</Save>
+</Problem>

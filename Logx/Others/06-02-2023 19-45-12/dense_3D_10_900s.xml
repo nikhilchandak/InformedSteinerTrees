@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="900" env="SF/dense_3D.dae" robot="SF/robot_cylinder_small.dae" runs="2" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="4917.408" tourCost="9834.815" timeTaken="1"/>
+	<SFFstar>
+		<Output spanningTreeLength="5876.7" tourCost="11753.4" timeTaken="900" costOverTime="{900: 5876.7}"/>
+		<Output spanningTreeLength="5843.23" tourCost="11686.46" timeTaken="900.001" costOverTime="{900.001: 5843.23}"/>
+	</SFFstar>
+</Benchmark>

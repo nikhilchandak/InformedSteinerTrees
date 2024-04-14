@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="900" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="5" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="1172.03" tourCost="2344.06" timeTaken="1"/>
+	<SFFstar>
+		<Output spanningTreeLength="1171.97" tourCost="2343.94" timeTaken="900.001" costOverTime="{900.001: 1171.97}"/>
+		<Output spanningTreeLength="1172.32" tourCost="2344.64" timeTaken="900.0" costOverTime="{900.0: 1172.32}"/>
+		<Output spanningTreeLength="1171.61" tourCost="2343.22" timeTaken="900.001" costOverTime="{900.001: 1171.61}"/>
+		<Output spanningTreeLength="1171.35" tourCost="2342.7" timeTaken="900.003" costOverTime="{900.003: 1171.35}"/>
+		<Output spanningTreeLength="1171.35" tourCost="2342.7" timeTaken="900.002" costOverTime="{900.002: 1171.35}"/>
+	</SFFstar>
+	<MultiTRRT>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1350" costOverTime="{1350: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1350" costOverTime="{1350: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1350" costOverTime="{1350: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1350" costOverTime="{1350: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1350" costOverTime="{1350: 1000000000.0}"/>
+	</MultiTRRT>
+</Benchmark>

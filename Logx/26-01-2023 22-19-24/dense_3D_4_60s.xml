@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="4" timeLimit="60" env="SF/dense_3D.dae" robot="SF/robot_cylinder_small.dae" runs="2" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="3262.122" tourCost="6524.244" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="4225.702" tourCost="4821.296" timeTaken="59.191" pruned="2" ellipsesRemaining="4" costOverTime="{8.3438: 4654.7832, 11.3333: 4654.7832, 11.3334: 4467.3877, 14.2715: 4350.8024, 17.2374: 4325.1583, 20.1845: 4320.3281, 23.1638: 4292.4291, 26.1428: 4292.4291, 26.1429: 4275.6615, 38.0246: 4251.2873, 38.0247: 4236.2207, 47.0521: 4228.8876, 53.0808: 4225.702, 59.1765: 4225.702}"/>
+		<Output spanningTreeLength="5056.534" tourCost="5056.534" timeTaken="57.807" pruned="1" ellipsesRemaining="5" costOverTime="{4.1185: 6264.1795, 4.1196: 5356.8682, 7.0557: 5320.7381, 9.9897: 5299.894, 12.9151: 5299.894, 12.9152: 5204.0392, 15.8643: 5098.5816, 24.7077: 5093.4731, 27.6719: 5093.4731, 27.672: 5090.3442, 30.6333: 5086.5618, 33.5952: 5067.6863, 39.5777: 5065.4773, 42.5647: 5060.9238, 45.6323: 5060.6538, 48.6605: 5056.5338, 57.7923: 5056.5338}"/>
+	</Ripple>
+	<SFFstar>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="60.0" costOverTime="{60.0: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="60.0" costOverTime="{60.0: 1000000000.0}"/>
+	</SFFstar>
+	<MultiTRRT>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="90" costOverTime="{90: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="90" costOverTime="{90: 1000000000.0}"/>
+	</MultiTRRT>
+</Benchmark>

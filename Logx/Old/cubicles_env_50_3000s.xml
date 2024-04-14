@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="50" timeLimit="3000" env="3D/cubicles_env.dae" robot="3D/cubicles_robot.dae" runs="10">
+	<Sstar ordering="UB - LB">
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.526" pruned="0" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.183" pruned="0" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.463" pruned="0" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.281" pruned="0" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.116" pruned="0" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.198" pruned="0" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3001.01" pruned="0" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.163" pruned="0" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.395" pruned="0" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.514" pruned="0" optimalEdges="0"/>
+	</Sstar>
+	<SFFstar>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.01"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.01"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.0"/>
+	</SFFstar>
+	<PrunedBaseline>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.037" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.002" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.009" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.018" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.111" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.047" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.021" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.043" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.031" optimalEdges="0"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3000.008" optimalEdges="0"/>
+	</PrunedBaseline>
+	<PotentiallyOptimal spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="9000.049"/>
+	<LowerBound spanningTreeLength="4764.122" tourCost="9528.244" timeTaken="1"/>
+</Benchmark>

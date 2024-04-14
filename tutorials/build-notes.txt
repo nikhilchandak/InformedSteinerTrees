@@ -1,0 +1,2 @@
+g++ geometricPlanningSE3.cpp -o geometricPlanningSE3 -I/home/kenny/Development/ompl/omplapp-1.5.2-Source/ompl/src -L/home/kenny/Development/ompl/omplapp-1.5.2-Source/build/Release/lib -lompl
+

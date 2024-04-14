@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" dim="2D">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Points>
+		<Point coord="[44.78849124575267; -18.273603658787515; -2.6505854504397]"/>
+		<Point coord="[-30.500246703476524; -36.3813900294591; 0.36841219485622645]"/>
+		<Point coord="[-35.779239300254744; 36.26693368848184; -0.4337370063587036]"/>
+		<Point coord="[-32.720981293978696; -35.61125926147842; 2.8838349335663667]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-55" max="55"/>
+		<RangeY min="-55" max="55"/>
+		<RangeZ min="0" max="0"/>
+	</Range>
+	<Robot file="../Instances/2D/car2_planar_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/2D/RandomPolygons_planar_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="29"/>
+	<Save>
+		<Params file="SFF//RandomPolygons_planar_env_4_29s.csv" id="SFF*"/>
+		<TSP file="SFF//tsp.tsp"/>
+	</Save>
+</Problem>

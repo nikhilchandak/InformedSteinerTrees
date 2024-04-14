@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="60" env="2D/BugTrap_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="5">
+	<SFFstar>
+		<Output spanningTreeLength="221.189" tourCost="442.378" timeTaken="25.954" costOverTime="{25.954: 221.189}"/>
+		<Output spanningTreeLength="219.021" tourCost="438.042" timeTaken="24.127" costOverTime="{24.127: 219.021}"/>
+		<Output spanningTreeLength="217.337" tourCost="434.674" timeTaken="24.317" costOverTime="{24.317: 217.337}"/>
+		<Output spanningTreeLength="219.269" tourCost="438.538" timeTaken="21.547" costOverTime="{21.547: 219.269}"/>
+		<Output spanningTreeLength="217.401" tourCost="434.802" timeTaken="19.494" costOverTime="{19.494: 217.401}"/>
+	</SFFstar>
+	<PotentiallyOptimal spanningTreeLength="262.832" tourCost="365.256" timeTaken="60.967"/>
+	<LowerBound spanningTreeLength="210.956" tourCost="421.912" timeTaken="1"/>
+</Benchmark>

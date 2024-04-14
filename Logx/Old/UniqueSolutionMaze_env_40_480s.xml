@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="40" timeLimit="480" env="2D/UniqueSolutionMaze_env.dae" robot="2D/UniqueSolutionMaze_robot.dae" runs="20">
+	<Sstar ordering="UB - LB">
+		<Output spanningTreeLength="706.887" tourCost="1312.513" timeTaken="481.51" pruned="218" optimalEdges="0"/>
+		<Output spanningTreeLength="5656.273" tourCost="1495.041" timeTaken="480.069" pruned="155" optimalEdges="0"/>
+		<Output spanningTreeLength="5570.73" tourCost="1315.355" timeTaken="489.354" pruned="207" optimalEdges="0"/>
+		<Output spanningTreeLength="706.888" tourCost="1314.866" timeTaken="480.038" pruned="424" optimalEdges="0"/>
+		<Output spanningTreeLength="701.836" tourCost="1304.954" timeTaken="480.542" pruned="422" optimalEdges="0"/>
+		<Output spanningTreeLength="704.879" tourCost="1309.718" timeTaken="480.42" pruned="419" optimalEdges="0"/>
+		<Output spanningTreeLength="706.258" tourCost="1315.128" timeTaken="480.127" pruned="421" optimalEdges="0"/>
+		<Output spanningTreeLength="712.923" tourCost="1325.331" timeTaken="479.967" pruned="409" optimalEdges="0"/>
+		<Output spanningTreeLength="710.687" tourCost="1323.167" timeTaken="480.873" pruned="417" optimalEdges="0"/>
+		<Output spanningTreeLength="700.365" tourCost="1305.77" timeTaken="485.606" pruned="419" optimalEdges="0"/>
+		<Output spanningTreeLength="703.901" tourCost="1310.999" timeTaken="480.056" pruned="420" optimalEdges="0"/>
+		<Output spanningTreeLength="704.716" tourCost="1314.241" timeTaken="480.11" pruned="425" optimalEdges="0"/>
+		<Output spanningTreeLength="702.006" tourCost="1310.336" timeTaken="480.333" pruned="425" optimalEdges="0"/>
+		<Output spanningTreeLength="704.801" tourCost="1313.02" timeTaken="479.983" pruned="424" optimalEdges="0"/>
+		<Output spanningTreeLength="701.829" tourCost="1306.034" timeTaken="480.033" pruned="424" optimalEdges="0"/>
+		<Output spanningTreeLength="709.024" tourCost="1318.919" timeTaken="480.091" pruned="421" optimalEdges="0"/>
+		<Output spanningTreeLength="708.7" tourCost="1320.87" timeTaken="479.918" pruned="421" optimalEdges="0"/>
+		<Output spanningTreeLength="705.686" tourCost="1313.667" timeTaken="480.023" pruned="417" optimalEdges="0"/>
+		<Output spanningTreeLength="707.01" tourCost="1316.931" timeTaken="479.992" pruned="423" optimalEdges="0"/>
+		<Output spanningTreeLength="702.078" tourCost="1308.186" timeTaken="480.173" pruned="430" optimalEdges="0"/>
+	</Sstar>
+	<SFFstar>
+		<Output spanningTreeLength="471.404" tourCost="942.808" timeTaken="35.918"/>
+		<Output spanningTreeLength="475.248" tourCost="950.496" timeTaken="33.375"/>
+		<Output spanningTreeLength="478.67" tourCost="957.34" timeTaken="33.066"/>
+		<Output spanningTreeLength="478.287" tourCost="956.574" timeTaken="30.793"/>
+		<Output spanningTreeLength="482.38" tourCost="964.76" timeTaken="30.763"/>
+		<Output spanningTreeLength="469.268" tourCost="938.536" timeTaken="24.993"/>
+		<Output spanningTreeLength="482.438" tourCost="964.876" timeTaken="27.123"/>
+		<Output spanningTreeLength="476.106" tourCost="952.212" timeTaken="27.112"/>
+		<Output spanningTreeLength="480.629" tourCost="961.258" timeTaken="22.938"/>
+		<Output spanningTreeLength="480.426" tourCost="960.852" timeTaken="26.14"/>
+		<Output spanningTreeLength="483.123" tourCost="966.246" timeTaken="25.51"/>
+		<Output spanningTreeLength="478.534" tourCost="957.068" timeTaken="25.145"/>
+		<Output spanningTreeLength="491.202" tourCost="982.404" timeTaken="24.959"/>
+		<Output spanningTreeLength="465.6" tourCost="931.2" timeTaken="24.398"/>
+		<Output spanningTreeLength="477.175" tourCost="954.35" timeTaken="24.147"/>
+		<Output spanningTreeLength="475.054" tourCost="950.108" timeTaken="24.043"/>
+		<Output spanningTreeLength="467.668" tourCost="935.336" timeTaken="23.793"/>
+		<Output spanningTreeLength="473.215" tourCost="946.43" timeTaken="23.065"/>
+		<Output spanningTreeLength="469.341" tourCost="938.682" timeTaken="24.099"/>
+		<Output spanningTreeLength="472.465" tourCost="944.93" timeTaken="25.574"/>
+	</SFFstar>
+	<Baseline>
+		<Output spanningTreeLength="692.93" tourCost="1132.189" timeTaken="480.016" optimalEdges="0"/>
+		<Output spanningTreeLength="697.278" tourCost="1139.061" timeTaken="480.016" optimalEdges="0"/>
+		<Output spanningTreeLength="696.456" tourCost="1138.032" timeTaken="480.001" optimalEdges="0"/>
+		<Output spanningTreeLength="702.525" tourCost="1154.067" timeTaken="480.013" optimalEdges="0"/>
+		<Output spanningTreeLength="690.768" tourCost="1126.92" timeTaken="480.001" optimalEdges="0"/>
+		<Output spanningTreeLength="689.873" tourCost="1125.044" timeTaken="480.0" optimalEdges="0"/>
+		<Output spanningTreeLength="688.638" tourCost="1124.786" timeTaken="480.021" optimalEdges="0"/>
+		<Output spanningTreeLength="691.133" tourCost="1127.135" timeTaken="480.006" optimalEdges="0"/>
+		<Output spanningTreeLength="686.959" tourCost="1119.897" timeTaken="480.002" optimalEdges="0"/>
+		<Output spanningTreeLength="689.585" tourCost="1123.181" timeTaken="480.012" optimalEdges="0"/>
+		<Output spanningTreeLength="687.305" tourCost="1122.232" timeTaken="480.022" optimalEdges="0"/>
+		<Output spanningTreeLength="693.717" tourCost="1133.898" timeTaken="480.025" optimalEdges="0"/>
+		<Output spanningTreeLength="689.007" tourCost="1124.262" timeTaken="480.008" optimalEdges="0"/>
+		<Output spanningTreeLength="688.306" tourCost="1122.812" timeTaken="480.004" optimalEdges="0"/>
+		<Output spanningTreeLength="691.067" tourCost="1129.218" timeTaken="480.002" optimalEdges="0"/>
+		<Output spanningTreeLength="688.519" tourCost="1122.39" timeTaken="480.006" optimalEdges="0"/>
+		<Output spanningTreeLength="688.428" tourCost="1122.616" timeTaken="480.031" optimalEdges="0"/>
+		<Output spanningTreeLength="686.656" tourCost="1119.753" timeTaken="480.023" optimalEdges="0"/>
+		<Output spanningTreeLength="688.513" tourCost="1123.053" timeTaken="480.017" optimalEdges="0"/>
+		<Output spanningTreeLength="691.238" tourCost="1128.86" timeTaken="480.016" optimalEdges="0"/>
+	</Baseline>
+	<PrunedBaseline>
+		<Output spanningTreeLength="683.445" tourCost="1114.757" timeTaken="480.033"/>
+		<Output spanningTreeLength="689.125" tourCost="1125.108" timeTaken="480.022"/>
+		<Output spanningTreeLength="681.905" tourCost="1111.941" timeTaken="480.033"/>
+		<Output spanningTreeLength="685.661" tourCost="1044.014" timeTaken="480.016"/>
+		<Output spanningTreeLength="684.154" tourCost="1116.641" timeTaken="480.028"/>
+		<Output spanningTreeLength="680.246" tourCost="1110.477" timeTaken="480.022"/>
+		<Output spanningTreeLength="686.642" tourCost="1120.13" timeTaken="480.015"/>
+		<Output spanningTreeLength="685.933" tourCost="1119.493" timeTaken="480.018"/>
+		<Output spanningTreeLength="685.345" tourCost="1119.425" timeTaken="480.008"/>
+		<Output spanningTreeLength="685.77" tourCost="1119.006" timeTaken="480.022"/>
+		<Output spanningTreeLength="687.38" tourCost="1122.964" timeTaken="480.032"/>
+		<Output spanningTreeLength="686.704" tourCost="1121.96" timeTaken="480.009"/>
+		<Output spanningTreeLength="696.717" tourCost="1146.314" timeTaken="480.005"/>
+		<Output spanningTreeLength="681.931" tourCost="1111.821" timeTaken="480.024"/>
+		<Output spanningTreeLength="684.351" tourCost="1117.271" timeTaken="480.017"/>
+		<Output spanningTreeLength="682.826" tourCost="1114.487" timeTaken="480.01"/>
+		<Output spanningTreeLength="683.964" tourCost="1115.557" timeTaken="480.008"/>
+		<Output spanningTreeLength="684.393" tourCost="1117.257" timeTaken="480.013"/>
+		<Output spanningTreeLength="683.794" tourCost="1116.162" timeTaken="480.028"/>
+		<Output spanningTreeLength="682.995" tourCost="1113.85" timeTaken="480.021"/>
+	</PrunedBaseline>
+	<PotentiallyOptimal spanningTreeLength="675.284" tourCost="1100.315" timeTaken="2400.065"/>
+	<LowerBound spanningTreeLength="431.912" tourCost="863.823" timeTaken="1"/>
+</Benchmark>

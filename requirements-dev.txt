@@ -1,0 +1,8 @@
+numpy=1.21.1
+matplotlib=3.4.2
+cProfile
+scipy
+elkai
+XlsxWriter
+pandas
+memory_profiler

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" dim="2D">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Points>
+		<Point coord="[26.456125785371825; -24.98237828301875; -1.179613224292679]"/>
+		<Point coord="[-37.234688830397566; 23.032554910354904; 1.4050314553690066]"/>
+		<Point coord="[-18.027324469155758; -4.166530040226306; 1.8651141783109173]"/>
+		<Point coord="[44.92225454678858; 44.22586627731677; 2.326902678458562]"/>
+		<Point coord="[-35.84077686414486; -17.260104582718697; 2.6641969672056725]"/>
+		<Point coord="[-22.929476280322383; -26.674501202832747; -0.5983389880366525]"/>
+		<Point coord="[10.92660298021869; 15.656290898636925; 2.551295711236526]"/>
+		<Point coord="[-36.80075993539517; -40.922255015803664; -0.15367048207363343]"/>
+		<Point coord="[-43.65380221794196; -46.423007898944284; -2.3294344709837858]"/>
+		<Point coord="[-28.42360286823452; -4.899108664768541; 0.9978848404512508]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-55" max="55"/>
+		<RangeY min="-55" max="55"/>
+		<RangeZ min="0" max="0"/>
+	</Range>
+	<Robot file="../Instances/2D/car2_planar_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/2D/RandomPolygons_planar_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="30"/>
+	<Save>
+		<Params file="SFF/03-10-2021 20-30-33//RandomPolygons_planar_env_10_30s.csv" id="SFF*"/>
+		<TSP file="SFF/03-10-2021 20-30-33//tsp.tsp"/>
+	</Save>
+</Problem>

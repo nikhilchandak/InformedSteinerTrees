@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="900" env="SF/dense_3D.dae" robot="SF/robot_cylinder_small.dae" runs="10" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="4917.408" tourCost="9834.815" timeTaken="1"/>
+	<SFFstar>
+		<Output spanningTreeLength="6030.67" tourCost="12061.34" timeTaken="900.021" costOverTime="{900.021: 6030.67}"/>
+		<Output spanningTreeLength="5843.23" tourCost="11686.46" timeTaken="900.002" costOverTime="{900.002: 5843.23}"/>
+		<Output spanningTreeLength="5843.13" tourCost="11686.26" timeTaken="900.001" costOverTime="{900.001: 5843.13}"/>
+		<Output spanningTreeLength="5721.51" tourCost="11443.02" timeTaken="900.003" costOverTime="{900.003: 5721.51}"/>
+		<Output spanningTreeLength="5632.92" tourCost="11265.84" timeTaken="900.003" costOverTime="{900.003: 5632.92}"/>
+		<Output spanningTreeLength="5314.75" tourCost="10629.5" timeTaken="900.003" costOverTime="{900.003: 5314.75}"/>
+		<Output spanningTreeLength="5314.24" tourCost="10628.48" timeTaken="900.0" costOverTime="{900.0: 5314.24}"/>
+		<Output spanningTreeLength="5843.79" tourCost="11687.58" timeTaken="900.002" costOverTime="{900.002: 5843.79}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="900.001" costOverTime="{900.001: 1000000000.0}"/>
+		<Output spanningTreeLength="6030.49" tourCost="12060.98" timeTaken="900.006" costOverTime="{900.006: 6030.49}"/>
+	</SFFstar>
+</Benchmark>

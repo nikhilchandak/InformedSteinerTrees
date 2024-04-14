@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" scale="1">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Points>
+		<Point coord="[75.1871141376177; -282.9701227593222; 114.55620604491631]"/>
+		<Point coord="[-192.3048018760119; -286.33270254706036; 68.01158033569243]"/>
+		<Point coord="[209.8928037292444; -336.2806277923501; 134.35046282707302]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-384" max="325"/>
+		<RangeY min="-371" max="338"/>
+		<RangeZ min="0" max="142"/>
+	</Range>
+	<Robot file="../Instances/3D/Home_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/3D/Home_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="30"/>
+	<Save>
+		<Params file="SFF//Home_env_3_30s.csv" id="SFF*"/>
+		<TSP file="SFF//tsp.tsp"/>
+	</Save>
+</Problem>

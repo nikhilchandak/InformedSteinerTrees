@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" dim="2D">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Points>
+		<Point coord="[43.0009690005283; -43.62070123660409; 1.4672479754403778]"/>
+		<Point coord="[-47.25950984226422; -44.166293993959236; 0.05364741467528544]"/>
+		<Point coord="[-27.5584286318023; 18.98849267088876; -1.7136437323909957]"/>
+		<Point coord="[1.5732651377668248; 26.141034665664876; -2.9046772938116048]"/>
+		<Point coord="[42.55281151136769; 47.192699441349916; -1.8818425558356466]"/>
+		<Point coord="[43.14058632604015; 37.38599451678651; -1.630702680527371]"/>
+		<Point coord="[4.218840390532819; 7.079346388097171; 2.4348290368869723]"/>
+		<Point coord="[-45.813339179991466; 35.89094140978233; 0.5933366661345736]"/>
+		<Point coord="[19.526025830722205; -39.55886987809031; -1.1902111995923996]"/>
+		<Point coord="[28.657294437428007; -44.86565103118675; 1.8688902689315556]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-50" max="50"/>
+		<RangeY min="-50" max="50"/>
+		<RangeZ min="0" max="0"/>
+	</Range>
+	<Robot file="../Instances/2D/UniqueSolutionMaze_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/2D/UniqueSolutionMaze_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="63"/>
+	<Save>
+		<Params file="SFF//UniqueSolutionMaze_env_10_63s.csv" id="SFF*"/>
+		<TSP file="SFF//tsp.tsp"/>
+	</Save>
+</Problem>

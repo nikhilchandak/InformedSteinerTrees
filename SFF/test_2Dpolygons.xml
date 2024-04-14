@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" dim="2D">
+  <ObjectDelimiters standard=" " name="_"/>
+  <TSP path="/home/jarajanos/Documents/obst_tsp/obst_tsp" type="Concorde"/>
+  <Robot file=".//models//3D//robot_cylinder_small.obj" is_obj="true"/>
+  <!-- <Robot file=".//models//robot_small.obj" is_obj="true"/> -->
+  <Environment collision="0.01">
+    <Obstacle file=".//maps//RandomPolygons_planar_env.obj" is_obj="true" position="[0; 0;0]"/>
+  </Environment>
+  <Points>
+    <Point coord="[-44.001080787379315; -8.653409142403206; 0]"/>
+    <Point coord="[31.804558736363788; -17.367336848507883; 0]"/>
+    <Point coord="[9.969305063544525; 21.296142312101153; 0]"/>
+    <Point coord="[21.31785501715015; -19.113598812694057; 0]"/>
+    <Point coord="[-21.381940244917978; 39.48720200422463; 0]"/>
+    <Point coord="[15.430292613323346; 44.07646037893355; 0]"/>
+  </Points>
+  <!-- <Range autoDetect="true" /> -->
+  <Range autoDetect="false"> 
+    <RangeX min="-55" max="55" />
+    <RangeY min="-55" max="55" />
+    <RangeZ min="0" max="0" />
+  </Range>
+  <Distances dtree="0.5" circum="0.4"/>
+  <Improvements priorityBias="0.95"/>
+  <Thresholds standard="5"/>
+  <MaxIterations value="100000"/>
+  <Save>
+    <Goals file="output//goals.tri" is_obj="false" />
+    <Params file="output//params.csv" id="sff_2D"/>
+    <TSP file="output//tsp.tsp"/>
+    <Tree file="output//tree5_normal_polygons.obj" is_obj="true" everyIteration="0" />
+    <RawPath file="output//rawPath5_normal_polygons.tri" is_obj="false" />
+  </Save>
+</Problem>

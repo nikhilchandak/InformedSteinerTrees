@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="3" timeLimit="20" env="SF/triang.dae" robot="SF/robot_cylinder_small.dae" runs="2" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="109.724" tourCost="219.449" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="123.061" tourCost="183.27" timeTaken="19.211" costOverTime="{2.6383: 134.3987, 4.487: 128.6362, 6.3097: 127.4971, 8.1469: 123.3466, 9.9818: 123.0614, 19.1989: 123.0614}"/>
+		<Output spanningTreeLength="128.06" tourCost="189.4" timeTaken="19.232" costOverTime="{2.6298: 176.8079, 2.6329: 163.6529, 4.4677: 163.6529, 4.4678: 138.2021, 6.2921: 132.995, 8.1326: 132.7549, 11.7937: 130.1089, 15.5306: 129.1818, 17.3785: 129.1818, 17.3786: 128.0599, 19.2179: 128.0599}"/>
+	</Ripple>
+	<SFFstar>
+		<Output spanningTreeLength="115.838" tourCost="231.676" timeTaken="20" costOverTime="{20: 115.838}"/>
+		<Output spanningTreeLength="116.093" tourCost="232.186" timeTaken="20.0" costOverTime="{20.0: 116.093}"/>
+	</SFFstar>
+	<MultiTRRT>
+		<Output spanningTreeLength="219.835" tourCost="439.67" timeTaken="134.802" costOverTime="{134.802: 219.835}"/>
+		<Output spanningTreeLength="219.835" tourCost="439.67" timeTaken="121.732" costOverTime="{121.732: 219.835}"/>
+	</MultiTRRT>
+</Benchmark>

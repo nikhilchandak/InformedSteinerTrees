@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="30" env="2D/RandomPolygons_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="1">
+	<PotentiallyOptimal spanningTreeLength="285.269" tourCost="435.013" timeTaken="30.126"/>
+	<LowerBound spanningTreeLength="210.37" tourCost="420.741" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="283.945" tourCost="424.584" timeTaken="28.231" pruned="26" costOverTime="{6.1817: 292.5253, 10.5777: 292.5253, 10.5791: 286.5211, 10.5805: 286.4944, 10.5843: 286.1959, 14.966: 285.3923, 19.3819: 285.2314, 19.3821: 284.4945, 19.3822: 284.0372, 23.7869: 283.9849, 28.2294: 283.945, 28.2296: 283.945}"/>
+	</Ripple>
+	<PRMbaseline>
+		<Output spanningTreeLength="283.898" tourCost="567.796" timeTaken="31.188" costOverTime="{31.18782114982605: 283.8980527743325}"/>
+	</PRMbaseline>
+</Benchmark>

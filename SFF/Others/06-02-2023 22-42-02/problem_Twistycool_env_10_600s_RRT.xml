@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<Problem solver="rrt" optimize="false" smoothing="false" scale="10">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0"/>
+	<Thresholds standard="5"/>
+	<Seed value="1234"/>
+	<Points>
+		<Point coord="[237.436625564551; 1.3207200855776655; -15.950689136989752]"/>
+		<Point coord="[201.6455006443673; 219.70629740192138; -135.34244816809968]"/>
+		<Point coord="[210.41256595560188; 275.44236154420963; -195.04325573922108]"/>
+		<Point coord="[93.81549075345217; 33.73464585510727; -52.532271105792404]"/>
+		<Point coord="[321.2498242061779; 270.96944973681; -235.53917826971713]"/>
+		<Point coord="[113.77193106447099; 96.06119479327542; -387.58487828261127]"/>
+		<Point coord="[373.5875685731462; 150.41237218506225; -218.81584532274996]"/>
+		<Point coord="[199.47647750249652; 222.70129737795244; -108.00546762919731]"/>
+		<Point coord="[235.9570554253368; 316.9858460638391; -218.83453009780936]"/>
+		<Point coord="[111.08023514195794; 81.8109029109185; -232.5909906556792]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="0" max="458"/>
+		<RangeY min="-24" max="321"/>
+		<RangeZ min="-505" max="0"/>
+	</Range>
+	<Robot file="../Instances/3D/Twistycool_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/3D/Twistycool_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="600"/>
+	<Save>
+		<Params file="SFF/Others/06-02-2023 22-42-02//Twistycool_env_10_600s_RRT.csv" id="rrt"/>
+		<TSP file="SFF/Others/06-02-2023 22-42-02//tsp.tsp"/>
+	</Save>
+</Problem>

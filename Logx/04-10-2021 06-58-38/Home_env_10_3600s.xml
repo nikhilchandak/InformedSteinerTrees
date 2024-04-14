@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="3600" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="5">
+	<SFFstar>
+		<Output spanningTreeLength="1617.9" tourCost="3235.8" timeTaken="3600" costOverTime="{3600: 1617.9}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3600" costOverTime="{3600: 1000000000.0}"/>
+		<Output spanningTreeLength="1696.55" tourCost="3393.1" timeTaken="3600" costOverTime="{3600: 1696.55}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3600" costOverTime="{3600: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="3600.09" costOverTime="{3600.09: 1000000000.0}"/>
+	</SFFstar>
+	<PotentiallyOptimal spanningTreeLength="1279.362" tourCost="1410.368" timeTaken="602.58"/>
+	<LowerBound spanningTreeLength="1162.446" tourCost="2324.893" timeTaken="1"/>
+</Benchmark>

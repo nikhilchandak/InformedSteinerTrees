@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="1800" env="3D/Abstract_env.dae" robot="3D/Abstract_robot.dae" runs="1">
+	<SFFstar>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1800" costOverTime="{1800: 1000000000.0}"/>
+	</SFFstar>
+	<PotentiallyOptimal spanningTreeLength="1332.177" tourCost="1505.572" timeTaken="1812.255"/>
+	<LowerBound spanningTreeLength="1299.528" tourCost="2599.055" timeTaken="1"/>
+</Benchmark>

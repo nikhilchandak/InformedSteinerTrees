@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="60" env="2D/RandomPolygons_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="2">
+	<PotentiallyOptimal spanningTreeLength="299.421" tourCost="479.733" timeTaken="59.992"/>
+	<LowerBound spanningTreeLength="210.37" tourCost="420.741" timeTaken="1"/>
+	<S0>
+		<Output spanningTreeLength="300.921" tourCost="447.892" timeTaken="59.772" pruned="22"/>
+		<Output spanningTreeLength="292.973" tourCost="562.057" timeTaken="59.427" pruned="24"/>
+	</S0>
+	<S1>
+		<Output spanningTreeLength="313.262" tourCost="603.534" timeTaken="60.002" pruned="19"/>
+		<Output spanningTreeLength="290.363" tourCost="557.879" timeTaken="60.015" pruned="25"/>
+	</S1>
+	<S2>
+		<Output spanningTreeLength="314.434" tourCost="604.427" timeTaken="59.977" pruned="20"/>
+		<Output spanningTreeLength="293.878" tourCost="483.221" timeTaken="59.182" pruned="24"/>
+	</S2>
+	<S3>
+		<Output spanningTreeLength="301.832" tourCost="580.145" timeTaken="59.406" pruned="23"/>
+		<Output spanningTreeLength="303.374" tourCost="460.318" timeTaken="59.903" pruned="21"/>
+	</S3>
+</Benchmark>

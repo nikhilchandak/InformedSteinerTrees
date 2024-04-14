@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="101" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="1">
+	<Sstar ordering="UB - LB">
+		<Output spanningTreeLength="2932.198" tourCost="4762.675" timeTaken="110.125" pruned="2" optimalEdges="0"/>
+	</Sstar>
+	<SFFstar>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="101"/>
+	</SFFstar>
+	<PrunedBaseline>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="101.062" optimalEdges="0"/>
+	</PrunedBaseline>
+	<PotentiallyOptimal spanningTreeLength="2251.666" tourCost="2612.63" timeTaken="303.2"/>
+	<LowerBound spanningTreeLength="1107.965" tourCost="2215.929" timeTaken="1"/>
+</Benchmark>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="33" env="2D/RandomPolygons_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="5">
+	<Sstar ordering="UB - LB">
+		<Output spanningTreeLength="248.128" tourCost="348.958" timeTaken="38.536" pruned="25" optimalEdges="0"/>
+		<Output spanningTreeLength="248.203" tourCost="369.297" timeTaken="33.563" pruned="21" optimalEdges="0"/>
+		<Output spanningTreeLength="251.786" tourCost="372.275" timeTaken="33.016" pruned="20" optimalEdges="0"/>
+		<Output spanningTreeLength="249.727" tourCost="350.961" timeTaken="33.001" pruned="22" optimalEdges="0"/>
+		<Output spanningTreeLength="249.092" tourCost="349.986" timeTaken="32.994" pruned="21" optimalEdges="0"/>
+	</Sstar>
+	<SFFstar>
+		<Output spanningTreeLength="217.656" tourCost="435.312" timeTaken="19.662"/>
+		<Output spanningTreeLength="217.344" tourCost="434.688" timeTaken="20.705"/>
+		<Output spanningTreeLength="215.485" tourCost="430.97" timeTaken="18.154"/>
+		<Output spanningTreeLength="218.224" tourCost="436.448" timeTaken="20.647"/>
+		<Output spanningTreeLength="214.14" tourCost="428.28" timeTaken="18.161"/>
+	</SFFstar>
+	<PrunedBaseline>
+		<Output spanningTreeLength="236.76" tourCost="332.03" timeTaken="33.001" optimalEdges="0"/>
+		<Output spanningTreeLength="238.669" tourCost="333.961" timeTaken="33.068" optimalEdges="0"/>
+		<Output spanningTreeLength="237.157" tourCost="355.586" timeTaken="33.01" optimalEdges="0"/>
+		<Output spanningTreeLength="238.014" tourCost="333.724" timeTaken="33.022" optimalEdges="0"/>
+		<Output spanningTreeLength="238.389" tourCost="333.71" timeTaken="33.051" optimalEdges="0"/>
+	</PrunedBaseline>
+	<PotentiallyOptimal spanningTreeLength="235.355" tourCost="353.095" timeTaken="66.017"/>
+	<LowerBound spanningTreeLength="201.891" tourCost="403.782" timeTaken="1"/>
+</Benchmark>

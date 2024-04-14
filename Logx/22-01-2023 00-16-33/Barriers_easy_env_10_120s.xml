@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="120" env="2D/Barriers_easy_env.dae" robot="2D/Barriers_easy_robot.dae" runs="2" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="797.803" tourCost="1595.606" timeTaken="1"/>
+	<SFFstar>
+		<Output spanningTreeLength="2382.46" tourCost="4764.92" timeTaken="3.354" costOverTime="{3.354: 2382.46}"/>
+		<Output spanningTreeLength="2382.46" tourCost="4764.92" timeTaken="3.277" costOverTime="{3.277: 2382.46}"/>
+	</SFFstar>
+</Benchmark>

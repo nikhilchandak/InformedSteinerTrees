@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" scale="10">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Seed value="1234"/>
+	<Points>
+		<Point coord="[1213.8934533055233; 56.21361096965998; 546.0816224552943]"/>
+		<Point coord="[171.95520610493733; 168.10442119280282; 489.1800164641148]"/>
+		<Point coord="[1175.4069695911987; 1534.6090670069798; 524.6983441689828]"/>
+		<Point coord="[625.2667080100799; 2009.872698056447; 596.2370673251282]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-60" max="2060"/>
+		<RangeY min="-60" max="2110"/>
+		<RangeZ min="0" max="1000"/>
+	</Range>
+	<Robot file="../Instances/SF/robot_cylinder_small_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/SF/dense_3D_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="60"/>
+	<Save>
+		<Params file="SFF/26-01-2023 22-19-24//dense_3D_4_60s_SFF.csv" id="sff"/>
+		<TSP file="SFF/26-01-2023 22-19-24//tsp.tsp"/>
+	</Save>
+</Problem>

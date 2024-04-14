@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="300" env="SF/triang.dae" robot="SF/robot_cylinder_small.dae" runs="3" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="336.247" tourCost="672.494" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="399.531" tourCost="445.2" timeTaken="294.518" pruned="24" ellipsesRemaining="19" costOverTime="{8.8323: 445.357, 8.8325: 435.5989, 8.8326: 416.7496, 15.0207: 416.7496, 15.0208: 413.7042, 15.0209: 406.8671, 21.2512: 406.8671, 21.2513: 406.8597, 21.2514: 405.4723, 27.4355: 405.4723, 27.4356: 402.218, 39.9297: 402.1163, 46.1624: 402.0579, 58.7222: 401.5872, 58.7223: 401.4749, 65.2581: 401.4749, 65.2582: 400.3034, 71.7085: 400.2806, 156.462: 400.2806, 156.4621: 400.1315, 156.4622: 399.9917, 203.5141: 399.9917, 203.5142: 399.9279, 230.8372: 399.6934, 265.8432: 399.6934, 265.8433: 399.5309, 294.4676: 399.5309}"/>
+		<Output spanningTreeLength="392.295" tourCost="419.324" timeTaken="300.956" pruned="24" ellipsesRemaining="19" costOverTime="{8.7516: 443.5801, 8.7518: 438.7455, 8.7519: 430.8355, 14.9832: 430.8355, 14.9833: 414.5946, 14.9834: 414.5946, 14.9835: 405.4295, 14.9879: 403.9107, 21.1736: 403.9107, 21.1737: 397.8083, 21.1738: 393.8591, 27.3734: 393.8591, 27.3735: 393.4949, 39.8813: 392.8489, 71.6049: 392.2952, 299.5289: 392.2952}"/>
+		<Output spanningTreeLength="395.564" tourCost="442.129" timeTaken="301.68" pruned="24" ellipsesRemaining="19" costOverTime="{8.7711: 437.8199, 8.7717: 430.1995, 8.772: 421.6039, 14.9799: 421.6039, 14.98: 410.3215, 14.9801: 404.9252, 21.1524: 404.9252, 21.1525: 396.4493, 33.53: 395.564, 299.833: 395.564}"/>
+	</Ripple>
+	<SFFstar>
+		<Output spanningTreeLength="450.927" tourCost="901.854" timeTaken="300" costOverTime="{300: 450.927}"/>
+		<Output spanningTreeLength="557.708" tourCost="1115.416" timeTaken="300.002" costOverTime="{300.002: 557.708}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="300.001" costOverTime="{300.001: 1000000000.0}"/>
+	</SFFstar>
+	<MultiTRRT>
+		<Output spanningTreeLength="1002.45" tourCost="2004.9" timeTaken="631.346" costOverTime="{631.346: 1002.45}"/>
+		<Output spanningTreeLength="1105.61" tourCost="2211.22" timeTaken="1371.02" costOverTime="{1371.02: 1105.61}"/>
+		<Output spanningTreeLength="1225.8" tourCost="2451.6" timeTaken="593.469" costOverTime="{593.469: 1225.8}"/>
+	</MultiTRRT>
+</Benchmark>

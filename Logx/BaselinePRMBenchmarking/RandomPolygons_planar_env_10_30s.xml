@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="30" env="2D/RandomPolygons_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="2">
+	<PotentiallyOptimal spanningTreeLength="254.967" tourCost="368.624" timeTaken="30.007"/>
+	<LowerBound spanningTreeLength="227.801" tourCost="455.602" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="252.653" tourCost="366.319" timeTaken="28.408" pruned="32" costOverTime="{6.2073: 362.166, 6.2086: 254.4975, 10.6144: 254.4975, 10.6156: 254.1537, 10.6259: 252.6532, 28.4063: 252.6532}"/>
+		<Output spanningTreeLength="254.57" tourCost="368.443" timeTaken="28.363" pruned="32" costOverTime="{6.2044: 345.6777, 6.2058: 257.9192, 10.5956: 257.7018, 10.5969: 257.5747, 10.5993: 257.5747, 10.6028: 257.5401, 10.6062: 257.0405, 15.0146: 256.0011, 15.016: 255.9316, 15.0161: 255.3783, 19.4358: 255.0986, 23.8809: 255.0683, 28.3614: 254.5699, 28.3615: 254.5699}"/>
+	</Ripple>
+	<PRMbaseline>
+		<Output spanningTreeLength="255.866" tourCost="511.733" timeTaken="27.573" costOverTime="{27.573406219482422: 255.8664385139792}"/>
+		<Output spanningTreeLength="255.866" tourCost="511.733" timeTaken="27.57" costOverTime="{27.569705724716187: 255.8664385139792}"/>
+	</PRMbaseline>
+</Benchmark>

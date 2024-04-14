@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" dim="2D">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Points>
+		<Point coord="[-18.97712600760336; 26.668813629800965; 1.7086703230856681]"/>
+		<Point coord="[-37.234688830397566; 23.037719864817248; 1.4050314553690066]"/>
+		<Point coord="[0.5480685523923441; 2.2956687723634275; -0.7333100709579963]"/>
+		<Point coord="[44.92225454678858; 44.23505001640869; 2.326902678458562]"/>
+		<Point coord="[-21.162279501409657; 42.18431499083796; -0.5183640541766645]"/>
+		<Point coord="[-28.977766857987554; -21.61020677608871; -0.7618982940018415]"/>
+		<Point coord="[-41.22354346129736; 20.78174569223016; 1.3106435239157745]"/>
+		<Point coord="[-21.771565260209; 23.044010031474983; -1.7530772936348313]"/>
+		<Point coord="[-43.65380221794196; -46.43101346528563; -2.3294344709837858]"/>
+		<Point coord="[-2.58261378087289; 44.301232835603386; 2.7088975637160493]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-55" max="55"/>
+		<RangeY min="-55" max="55"/>
+		<RangeZ min="0" max="0"/>
+	</Range>
+	<Robot file="../Instances/2D/car2_planar_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/2D/BugTrap_planar_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="60"/>
+	<Save>
+		<Params file="SFF/05-10-2021 01-10-32//BugTrap_planar_env_10_60s.csv" id="SFF*"/>
+		<TSP file="SFF/05-10-2021 01-10-32//tsp.tsp"/>
+	</Save>
+</Problem>

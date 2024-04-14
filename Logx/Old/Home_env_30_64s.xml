@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="64" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<Baseline/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="64" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<Baseline/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>

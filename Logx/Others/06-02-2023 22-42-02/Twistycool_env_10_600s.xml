@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="600" env="3D/Twistycool_env.dae" robot="3D/Twistycool_robot.dae" runs="5" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="1092.675" tourCost="2185.35" timeTaken="1"/>
+	<SFFstar>
+		<Output spanningTreeLength="1096.7" tourCost="2193.4" timeTaken="600" costOverTime="{600: 1096.7}"/>
+		<Output spanningTreeLength="1096.7" tourCost="2193.4" timeTaken="600.001" costOverTime="{600.001: 1096.7}"/>
+		<Output spanningTreeLength="1203.16" tourCost="2406.32" timeTaken="600.002" costOverTime="{600.002: 1203.16}"/>
+		<Output spanningTreeLength="1207.26" tourCost="2414.52" timeTaken="600.006" costOverTime="{600.006: 1207.26}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="600.0" costOverTime="{600.0: 1000000000.0}"/>
+	</SFFstar>
+	<MultiTRRT>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="900" costOverTime="{900: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="900" costOverTime="{900: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="900" costOverTime="{900: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="900" costOverTime="{900: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="900" costOverTime="{900: 1000000000.0}"/>
+	</MultiTRRT>
+</Benchmark>

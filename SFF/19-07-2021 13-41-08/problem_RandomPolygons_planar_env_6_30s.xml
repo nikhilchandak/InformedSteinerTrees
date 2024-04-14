@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" dim="2D">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Points>
+		<Point coord="[-44.001080787379315; -8.653409142403206; 1.8394915433968029]"/>
+		<Point coord="[45.28373054388085; -20.871153447971913; -0.76294522654561]"/>
+		<Point coord="[-29.915845439074328; 20.659094914142443; -1.7136437323909957]"/>
+		<Point coord="[21.31785501715015; -19.113598812694057; -2.180050992968364]"/>
+		<Point coord="[-21.381940244917978; 39.48720200422463; -2.9728430926652916]"/>
+		<Point coord="[15.430292613323346; 44.07646037893355; 2.5518982049034564]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-55" max="55"/>
+		<RangeY min="-55" max="55"/>
+		<RangeZ min="0" max="0"/>
+	</Range>
+	<Robot file="../Instances/2D/car2_planar_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/2D/RandomPolygons_planar_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="30"/>
+	<Save>
+		<Params file="SFF/19-07-2021 13-41-08//RandomPolygons_planar_env_6_30s.csv" id="SFF*"/>
+		<TSP file="SFF/19-07-2021 13-41-08//tsp.tsp"/>
+	</Save>
+</Problem>

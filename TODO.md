@@ -1,0 +1,12 @@
+- ~~Create conf class for logger throughout each module.~~ Going to reuse `config` module
+- ~~Keep track of terminal indices instead of actual points.~~ Not necessary.
+- ~~Need to double check if rewiring is correct. The figure looks iffy sometimes.~~ Looks mostly correct. Need a triple check.
+- (ANIMATION) most new nodes will change colors correctly based on their root (WIP). Need to do it for DFS too.
+- ~~(ANIMATION) Most old edges during `rewire()` are being deleted correctly now. However, when an edge joins two different roots, we may have to do DFS to delete descendents from the old root (WIP).~~
+- ~~Allow deletion of nodes within `_update_plot_node()`.~~
+- ~~Can gap between sampling shortest path and Dijkstra be closed?~~  
+- ~~ Need shortest paths so far found between terminals, seems we have a bug~~
+- Can we speed up the code?
+- Need to test with graph instances from OMPL
+- Need to find robotic arm instance?
+- ~~Incorporate "junction" nodes, but I don't understand...~~ Unnecessary now

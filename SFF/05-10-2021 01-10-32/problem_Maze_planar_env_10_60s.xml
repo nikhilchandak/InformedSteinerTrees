@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" dim="2D">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Points>
+		<Point coord="[2.7589913403817334; -28.5397869814945; -2.824549052181822]"/>
+		<Point coord="[48.136824029455326; -22.37149108477655; 1.5435874472096973]"/>
+		<Point coord="[0.5480685523923441; 2.295128733689779; -0.7333100709579963]"/>
+		<Point coord="[44.92225454678858; 44.22656017860628; 2.326902678458562]"/>
+		<Point coord="[-35.84077686414486; -17.259412813705303; 2.6641969672056725]"/>
+		<Point coord="[-28.977766857987554; -21.606215348084255; -0.7618982940018415]"/>
+		<Point coord="[-15.283162458682654; 10.913546492234161; -0.4867106606895426]"/>
+		<Point coord="[-38.63860330368098; -42.586182090187904; -1.1219774353734628]"/>
+		<Point coord="[-43.65380221794196; -46.422317141273176; -2.3294344709837858]"/>
+		<Point coord="[-2.58261378087289; 44.29273045254868; 2.7088975637160493]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-55" max="55"/>
+		<RangeY min="-55" max="55"/>
+		<RangeZ min="0" max="0"/>
+	</Range>
+	<Robot file="../Instances/2D/car2_planar_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/2D/Maze_planar_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="60"/>
+	<Save>
+		<Params file="SFF/05-10-2021 01-10-32//Maze_planar_env_10_60s.csv" id="SFF*"/>
+		<TSP file="SFF/05-10-2021 01-10-32//tsp.tsp"/>
+	</Save>
+</Problem>

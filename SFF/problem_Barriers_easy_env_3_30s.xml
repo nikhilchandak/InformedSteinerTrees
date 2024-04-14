@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" dim="2D">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Points>
+		<Point coord="[66.09573301470016; -254.53857717112973; 1.8394915433968029]"/>
+		<Point coord="[300.2861651425826; -291.44923686704226; 1.8029545064617434]"/>
+		<Point coord="[390.41961838425743; -134.5450396950688; 0.38034966958460137]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="0" max="661"/>
+		<RangeY min="-440" max="0"/>
+		<RangeZ min="0" max="0"/>
+	</Range>
+	<Robot file="../Instances/2D/Barriers_easy_robot.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/2D/Barriers_easy_env.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="30"/>
+	<Save>
+		<Params file="SFF//Barriers_easy_env_3_30s.csv" id="SFF*"/>
+		<TSP file="SFF//tsp.tsp"/>
+	</Save>
+</Problem>

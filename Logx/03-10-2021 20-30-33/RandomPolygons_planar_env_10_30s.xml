@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="30" env="2D/RandomPolygons_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="2">
+	<SFFstar>
+		<Output spanningTreeLength="242.349" tourCost="484.698" timeTaken="14.096" costOverTime="{14.096: 242.349}"/>
+		<Output spanningTreeLength="246.713" tourCost="493.426" timeTaken="16.883" costOverTime="{16.883: 246.713}"/>
+	</SFFstar>
+	<PotentiallyOptimal spanningTreeLength="254.898" tourCost="368.674" timeTaken="30.373"/>
+	<LowerBound spanningTreeLength="227.801" tourCost="455.602" timeTaken="1"/>
+</Benchmark>

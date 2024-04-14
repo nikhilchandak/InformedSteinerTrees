@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="240" env="2D/BugTrap_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="10">
+	<PotentiallyOptimal spanningTreeLength="246.497" tourCost="393.872" timeTaken="239.706"/>
+	<LowerBound spanningTreeLength="219.201" tourCost="438.402" timeTaken="1"/>
+	<S0>
+		<Output spanningTreeLength="240.557" tourCost="392.236" timeTaken="239.065" pruned="34"/>
+		<Output spanningTreeLength="239.346" tourCost="390.016" timeTaken="238.588" pruned="34"/>
+		<Output spanningTreeLength="238.548" tourCost="387.348" timeTaken="239.272" pruned="34"/>
+		<Output spanningTreeLength="242.386" tourCost="391.535" timeTaken="239.874" pruned="34"/>
+		<Output spanningTreeLength="243.616" tourCost="395.107" timeTaken="238.681" pruned="33"/>
+		<Output spanningTreeLength="248.124" tourCost="406.101" timeTaken="239.419" pruned="34"/>
+		<Output spanningTreeLength="237.346" tourCost="384.342" timeTaken="238.534" pruned="35"/>
+		<Output spanningTreeLength="239.503" tourCost="386.743" timeTaken="240.005" pruned="34"/>
+		<Output spanningTreeLength="231.208" tourCost="373.679" timeTaken="238.466" pruned="35"/>
+		<Output spanningTreeLength="255.655" tourCost="406.007" timeTaken="239.752" pruned="34"/>
+	</S0>
+	<S1>
+		<Output spanningTreeLength="247.467" tourCost="401.352" timeTaken="239.538" pruned="34"/>
+		<Output spanningTreeLength="243.229" tourCost="394.345" timeTaken="238.082" pruned="34"/>
+		<Output spanningTreeLength="239.847" tourCost="389.243" timeTaken="239.544" pruned="34"/>
+		<Output spanningTreeLength="242.013" tourCost="393.27" timeTaken="238.334" pruned="34"/>
+		<Output spanningTreeLength="244.15" tourCost="394.873" timeTaken="239.031" pruned="33"/>
+		<Output spanningTreeLength="238.023" tourCost="385.881" timeTaken="239.146" pruned="33"/>
+		<Output spanningTreeLength="244.182" tourCost="397.663" timeTaken="239.666" pruned="33"/>
+		<Output spanningTreeLength="235.561" tourCost="382.01" timeTaken="236.928" pruned="34"/>
+		<Output spanningTreeLength="278.472" tourCost="428.864" timeTaken="239.522" pruned="33"/>
+		<Output spanningTreeLength="248.48" tourCost="401.735" timeTaken="239.576" pruned="34"/>
+	</S1>
+	<S2>
+		<Output spanningTreeLength="264.863" tourCost="438.209" timeTaken="236.301" pruned="32"/>
+		<Output spanningTreeLength="244.3" tourCost="395.52" timeTaken="237.304" pruned="34"/>
+		<Output spanningTreeLength="249.719" tourCost="405.91" timeTaken="239.447" pruned="33"/>
+		<Output spanningTreeLength="238.468" tourCost="383.459" timeTaken="239.1" pruned="34"/>
+		<Output spanningTreeLength="241.718" tourCost="394.082" timeTaken="231.67" pruned="33"/>
+		<Output spanningTreeLength="241.356" tourCost="392.361" timeTaken="238.326" pruned="34"/>
+		<Output spanningTreeLength="236.605" tourCost="383.993" timeTaken="239.661" pruned="34"/>
+		<Output spanningTreeLength="244.115" tourCost="397.0" timeTaken="238.683" pruned="34"/>
+		<Output spanningTreeLength="250.833" tourCost="411.815" timeTaken="239.533" pruned="33"/>
+		<Output spanningTreeLength="241.042" tourCost="390.106" timeTaken="239.483" pruned="34"/>
+	</S2>
+	<S3>
+		<Output spanningTreeLength="242.668" tourCost="391.512" timeTaken="239.778" pruned="34"/>
+		<Output spanningTreeLength="243.771" tourCost="391.866" timeTaken="239.389" pruned="34"/>
+		<Output spanningTreeLength="242.99" tourCost="394.099" timeTaken="239.117" pruned="33"/>
+		<Output spanningTreeLength="246.103" tourCost="400.255" timeTaken="238.546" pruned="33"/>
+		<Output spanningTreeLength="241.98" tourCost="392.874" timeTaken="239.935" pruned="33"/>
+		<Output spanningTreeLength="245.919" tourCost="400.521" timeTaken="239.669" pruned="33"/>
+		<Output spanningTreeLength="245.003" tourCost="399.847" timeTaken="240.004" pruned="33"/>
+		<Output spanningTreeLength="242.586" tourCost="392.191" timeTaken="236.192" pruned="33"/>
+		<Output spanningTreeLength="238.221" tourCost="382.966" timeTaken="239.181" pruned="34"/>
+		<Output spanningTreeLength="266.108" tourCost="417.904" timeTaken="239.797" pruned="34"/>
+	</S3>
+</Benchmark>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="300" env="SF/triang.dae" robot="SF/robot_cylinder_small.dae" runs="5">
+	<SFFstar>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="300" costOverTime="{300: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="300.001" costOverTime="{300.001: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="300.001" costOverTime="{300.001: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="300.001" costOverTime="{300.001: 1000000000.0}"/>
+		<Output spanningTreeLength="595.499" tourCost="1190.998" timeTaken="300.0" costOverTime="{300.0: 595.499}"/>
+	</SFFstar>
+	<PotentiallyOptimal spanningTreeLength="338.034" tourCost="560.649" timeTaken="301.377"/>
+	<LowerBound spanningTreeLength="287.08" tourCost="574.161" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="335.667" tourCost="558.424" timeTaken="297.299" pruned="32" costOverTime="{17.7355: 353.6496, 30.4089: 353.6496, 30.42: 352.6029, 30.4201: 350.9592, 30.4202: 344.0295, 42.9935: 344.0295, 42.9936: 344.0103, 42.9937: 343.0527, 42.9938: 341.2944, 55.5584: 340.3738, 68.2888: 339.8155, 68.2891: 338.7571, 93.9627: 338.7571, 93.9628: 337.7974, 107.1536: 337.7542, 120.2841: 337.7542, 120.2842: 337.18, 174.3552: 337.1458, 200.7346: 337.0336, 214.2965: 336.3804, 241.5951: 336.3667, 297.2907: 336.3667, 297.2908: 335.6666, 297.291: 335.6666}"/>
+		<Output spanningTreeLength="333.325" tourCost="553.25" timeTaken="297.092" pruned="30" costOverTime="{17.8757: 350.2801, 17.8764: 349.8922, 30.5812: 349.8922, 30.5813: 347.2623, 30.5814: 341.4834, 43.2079: 341.4834, 43.208: 339.0784, 43.2082: 337.3579, 55.8758: 336.7422, 136.4347: 333.3252, 297.0855: 333.3252}"/>
+		<Output spanningTreeLength="331.856" tourCost="549.89" timeTaken="290.658" pruned="32" costOverTime="{17.681: 342.7688, 30.2917: 340.8774, 30.2918: 337.9982, 55.1744: 337.602, 67.806: 337.5281, 105.6265: 332.65, 131.2443: 332.37, 222.8739: 332.37, 222.874: 331.8555, 290.643: 331.8555}"/>
+		<Output spanningTreeLength="333.241" tourCost="523.981" timeTaken="293.284" pruned="31" costOverTime="{17.7578: 347.0106, 17.7583: 346.1822, 30.3258: 346.1822, 30.3395: 342.8508, 30.3396: 342.7194, 30.3397: 336.5654, 42.7626: 336.003, 56.0113: 336.003, 56.0114: 335.6852, 56.0116: 335.2779, 68.4851: 335.2565, 81.064: 335.0006, 93.6164: 334.8593, 157.6362: 333.2413, 293.2722: 333.2413}"/>
+		<Output spanningTreeLength="338.112" tourCost="529.043" timeTaken="290.821" pruned="30" costOverTime="{17.6862: 348.478, 17.6873: 348.0659, 30.1806: 348.0659, 30.1807: 347.35, 30.1989: 345.0791, 30.199: 344.2284, 30.1991: 343.5471, 42.7375: 343.5096, 42.7376: 341.2659, 67.629: 341.1133, 80.2909: 341.1133, 80.291: 340.8946, 135.0368: 340.8946, 135.0369: 340.3421, 135.037: 338.5904, 220.1763: 338.1123, 290.8055: 338.1123}"/>
+	</Ripple>
+	<PRMbaseline>
+		<Output spanningTreeLength="329.133" tourCost="658.266" timeTaken="297.012"/>
+		<Output spanningTreeLength="329.133" tourCost="658.266" timeTaken="298.022" costOverTime="{0.1114: 329.1329, 296.9411: 329.1329}"/>
+		<Output spanningTreeLength="329.133" tourCost="658.266" timeTaken="299.923" costOverTime="{0.1114: 329.1329, 296.9411: 329.1329, 296.7707: 329.1329}"/>
+		<Output spanningTreeLength="329.133" tourCost="658.266" timeTaken="298.941" costOverTime="{0.1114: 329.1329, 296.9411: 329.1329, 296.7707: 329.1329, 298.9904: 329.1329}"/>
+		<Output spanningTreeLength="329.133" tourCost="658.266" timeTaken="306.294" costOverTime="{0.1114: 329.1329, 296.9411: 329.1329, 296.7707: 329.1329, 298.9904: 329.1329, 295.299: 329.1329}"/>
+	</PRMbaseline>
+</Benchmark>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<Problem solver="rrt" optimize="false" smoothing="false" scale="1">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0"/>
+	<Thresholds standard="5"/>
+	<Seed value="1234"/>
+	<Points>
+		<Point coord="[113.607682911945; -155.5517151306401; 363.3434681688223]"/>
+		<Point coord="[12.141713229068216; 86.57295711600636; 467.07279724320534]"/>
+		<Point coord="[-85.87716623244793; -13.369234182582034; 61.068031437129974]"/>
+		<Point coord="[-153.22593514277156; -87.12423281553288; 396.41759904941387]"/>
+		<Point coord="[220.77833953384368; 115.49665656354682; 79.15997867422611]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-233" max="240"/>
+		<RangeY min="-222" max="251"/>
+		<RangeZ min="-4" max="469"/>
+	</Range>
+	<Robot file="../Instances/3D/Abstract_robot_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/3D/Abstract_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="2000000"/>
+	<Time value="600"/>
+	<Save>
+		<Params file="SFF/23-01-2023 03-35-22//Abstract_env_5_600s.csv" id="SFF*"/>
+		<TSP file="SFF/23-01-2023 03-35-22//tsp.tsp"/>
+	</Save>
+</Problem>

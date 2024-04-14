@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="480" env="2D/BugTrap_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="10">
+	<PotentiallyOptimal spanningTreeLength="476.665" tourCost="799.158" timeTaken="449.542"/>
+	<LowerBound spanningTreeLength="417.224" tourCost="834.447" timeTaken="1"/>
+	<S0>
+		<Output spanningTreeLength="463.861" tourCost="778.015" timeTaken="448.317" pruned="387"/>
+		<Output spanningTreeLength="468.984" tourCost="790.021" timeTaken="448.397" pruned="383"/>
+		<Output spanningTreeLength="472.248" tourCost="812.508" timeTaken="449.493" pruned="372"/>
+		<Output spanningTreeLength="469.025" tourCost="858.85" timeTaken="448.826" pruned="379"/>
+		<Output spanningTreeLength="470.043" tourCost="788.213" timeTaken="449.825" pruned="379"/>
+		<Output spanningTreeLength="478.639" tourCost="819.757" timeTaken="449.901" pruned="380"/>
+		<Output spanningTreeLength="489.728" tourCost="853.49" timeTaken="449.992" pruned="373"/>
+		<Output spanningTreeLength="490.239" tourCost="828.505" timeTaken="448.643" pruned="375"/>
+		<Output spanningTreeLength="464.743" tourCost="783.121" timeTaken="448.541" pruned="380"/>
+		<Output spanningTreeLength="462.076" tourCost="777.711" timeTaken="449.199" pruned="381"/>
+	</S0>
+	<S1>
+		<Output spanningTreeLength="471.953" tourCost="796.043" timeTaken="448.354" pruned="380"/>
+		<Output spanningTreeLength="461.731" tourCost="873.78" timeTaken="448.776" pruned="384"/>
+		<Output spanningTreeLength="489.315" tourCost="829.823" timeTaken="454.067" pruned="370"/>
+		<Output spanningTreeLength="486.295" tourCost="852.043" timeTaken="450.017" pruned="378"/>
+		<Output spanningTreeLength="483.811" tourCost="904.064" timeTaken="449.169" pruned="374"/>
+		<Output spanningTreeLength="469.5" tourCost="792.292" timeTaken="450.478" pruned="381"/>
+		<Output spanningTreeLength="484.668" tourCost="836.034" timeTaken="449.734" pruned="374"/>
+		<Output spanningTreeLength="465.907" tourCost="783.304" timeTaken="451.633" pruned="379"/>
+		<Output spanningTreeLength="485.038" tourCost="826.988" timeTaken="450.028" pruned="378"/>
+		<Output spanningTreeLength="468.321" tourCost="808.955" timeTaken="450.107" pruned="381"/>
+	</S1>
+	<S2>
+		<Output spanningTreeLength="485.156" tourCost="847.064" timeTaken="448.681" pruned="372"/>
+		<Output spanningTreeLength="481.27" tourCost="833.576" timeTaken="449.191" pruned="374"/>
+		<Output spanningTreeLength="463.006" tourCost="780.322" timeTaken="450.434" pruned="379"/>
+		<Output spanningTreeLength="492.992" tourCost="835.378" timeTaken="450.815" pruned="366"/>
+		<Output spanningTreeLength="482.088" tourCost="885.274" timeTaken="449.761" pruned="373"/>
+		<Output spanningTreeLength="467.092" tourCost="804.992" timeTaken="449.626" pruned="381"/>
+		<Output spanningTreeLength="471.455" tourCost="788.558" timeTaken="448.578" pruned="380"/>
+		<Output spanningTreeLength="461.793" tourCost="777.709" timeTaken="451.151" pruned="381"/>
+		<Output spanningTreeLength="492.543" tourCost="863.56" timeTaken="449.989" pruned="370"/>
+		<Output spanningTreeLength="462.365" tourCost="779.787" timeTaken="449.409" pruned="384"/>
+	</S2>
+	<S3>
+		<Output spanningTreeLength="474.632" tourCost="802.064" timeTaken="449.531" pruned="376"/>
+		<Output spanningTreeLength="485.371" tourCost="837.656" timeTaken="450.277" pruned="377"/>
+		<Output spanningTreeLength="474.726" tourCost="799.596" timeTaken="448.877" pruned="378"/>
+		<Output spanningTreeLength="466.69" tourCost="784.671" timeTaken="450.141" pruned="379"/>
+		<Output spanningTreeLength="468.717" tourCost="786.377" timeTaken="448.05" pruned="376"/>
+		<Output spanningTreeLength="480.31" tourCost="807.886" timeTaken="450.094" pruned="374"/>
+		<Output spanningTreeLength="489.592" tourCost="846.485" timeTaken="449.968" pruned="370"/>
+		<Output spanningTreeLength="464.82" tourCost="871.816" timeTaken="450.004" pruned="381"/>
+		<Output spanningTreeLength="470.242" tourCost="713.845" timeTaken="449.015" pruned="376"/>
+		<Output spanningTreeLength="497.84" tourCost="964.604" timeTaken="449.29" pruned="366"/>
+	</S3>
+</Benchmark>

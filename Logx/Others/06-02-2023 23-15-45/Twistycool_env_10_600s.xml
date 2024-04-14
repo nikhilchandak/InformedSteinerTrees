@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="600" env="3D/Twistycool_env.dae" robot="3D/Twistycool_robot.dae" runs="3" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="1092.675" tourCost="2185.35" timeTaken="1"/>
+	<SFFstar>
+		<Output spanningTreeLength="1096.79" tourCost="2193.58" timeTaken="600.238" costOverTime="{600.238: 1096.79}"/>
+		<Output spanningTreeLength="1207.26" tourCost="2414.52" timeTaken="600.002" costOverTime="{600.002: 1207.26}"/>
+		<Output spanningTreeLength="1207.26" tourCost="2414.52" timeTaken="600.004" costOverTime="{600.004: 1207.26}"/>
+	</SFFstar>
+	<MultiTRRT>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="900" costOverTime="{900: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="900" costOverTime="{900: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="900" costOverTime="{900: 1000000000.0}"/>
+	</MultiTRRT>
+</Benchmark>

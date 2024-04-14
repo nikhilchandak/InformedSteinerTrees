@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="1200" env="3D/Twistycool_env.dae" robot="3D/Twistycool_robot.dae" runs="2" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="2772.468" tourCost="5544.936" timeTaken="1"/>
+	<SFFstar>
+		<Output spanningTreeLength="4929.65" tourCost="9859.3" timeTaken="1200" costOverTime="{1200: 4929.65}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1200.01" costOverTime="{1200.01: 1000000000.0}"/>
+	</SFFstar>
+</Benchmark>

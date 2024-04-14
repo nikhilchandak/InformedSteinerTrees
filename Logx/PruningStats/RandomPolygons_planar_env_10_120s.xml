@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="120" env="2D/RandomPolygons_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="20">
+	<Sstar ordering="UB - LB" informed="True">
+		<Output spanningTreeLength="296.984" tourCost="568.538" timeTaken="119.64" pruned="24"/>
+		<Output spanningTreeLength="296.175" tourCost="438.668" timeTaken="119.571" pruned="20"/>
+		<Output spanningTreeLength="298.162" tourCost="452.107" timeTaken="118.823" pruned="22"/>
+		<Output spanningTreeLength="293.28" tourCost="449.888" timeTaken="119.123" pruned="24"/>
+		<Output spanningTreeLength="302.819" tourCost="459.634" timeTaken="118.581" pruned="22"/>
+		<Output spanningTreeLength="287.928" tourCost="428.763" timeTaken="119.987" pruned="26"/>
+		<Output spanningTreeLength="306.384" tourCost="459.396" timeTaken="119.732" pruned="21"/>
+		<Output spanningTreeLength="301.886" tourCost="580.399" timeTaken="119.871" pruned="21"/>
+		<Output spanningTreeLength="289.918" tourCost="555.221" timeTaken="120.026" pruned="26"/>
+		<Output spanningTreeLength="295.345" tourCost="566.749" timeTaken="119.641" pruned="22"/>
+		<Output spanningTreeLength="291.571" tourCost="558.568" timeTaken="118.969" pruned="24"/>
+		<Output spanningTreeLength="302.54" tourCost="582.046" timeTaken="119.086" pruned="20"/>
+		<Output spanningTreeLength="308.544" tourCost="453.629" timeTaken="119.662" pruned="20"/>
+		<Output spanningTreeLength="290.459" tourCost="557.812" timeTaken="118.622" pruned="25"/>
+		<Output spanningTreeLength="292.955" tourCost="482.121" timeTaken="118.857" pruned="24"/>
+		<Output spanningTreeLength="292.043" tourCost="559.816" timeTaken="119.619" pruned="25"/>
+		<Output spanningTreeLength="289.04" tourCost="439.878" timeTaken="120.049" pruned="26"/>
+		<Output spanningTreeLength="294.132" tourCost="564.089" timeTaken="119.985" pruned="23"/>
+		<Output spanningTreeLength="290.791" tourCost="444.373" timeTaken="119.315" pruned="25"/>
+		<Output spanningTreeLength="297.965" tourCost="572.399" timeTaken="119.222" pruned="23"/>
+	</Sstar>
+	<PotentiallyOptimal spanningTreeLength="301.873" tourCost="457.389" timeTaken="119.843"/>
+	<LowerBound spanningTreeLength="210.37" tourCost="420.741" timeTaken="1"/>
+	<UninformedSBSstar>
+		<Output spanningTreeLength="295.471" tourCost="486.438" timeTaken="119.404" pruned="24"/>
+		<Output spanningTreeLength="293.32" tourCost="562.714" timeTaken="119.158" pruned="24"/>
+		<Output spanningTreeLength="294.847" tourCost="448.382" timeTaken="119.871" pruned="23"/>
+		<Output spanningTreeLength="290.863" tourCost="558.832" timeTaken="119.877" pruned="25"/>
+		<Output spanningTreeLength="299.859" tourCost="453.973" timeTaken="119.056" pruned="24"/>
+		<Output spanningTreeLength="295.191" tourCost="452.563" timeTaken="118.719" pruned="25"/>
+		<Output spanningTreeLength="299.591" tourCost="576.123" timeTaken="120.004" pruned="22"/>
+		<Output spanningTreeLength="296.715" tourCost="570.24" timeTaken="119.336" pruned="23"/>
+		<Output spanningTreeLength="289.024" tourCost="555.71" timeTaken="120.77" pruned="26"/>
+		<Output spanningTreeLength="301.315" tourCost="451.247" timeTaken="120.145" pruned="22"/>
+		<Output spanningTreeLength="304.299" tourCost="462.644" timeTaken="119.535" pruned="20"/>
+		<Output spanningTreeLength="302.494" tourCost="580.821" timeTaken="120.134" pruned="22"/>
+		<Output spanningTreeLength="327.319" tourCost="482.428" timeTaken="118.868" pruned="21"/>
+		<Output spanningTreeLength="288.863" tourCost="554.92" timeTaken="118.738" pruned="25"/>
+		<Output spanningTreeLength="302.465" tourCost="457.467" timeTaken="120.167" pruned="20"/>
+		<Output spanningTreeLength="291.461" tourCost="558.196" timeTaken="119.289" pruned="25"/>
+		<Output spanningTreeLength="288.45" tourCost="441.798" timeTaken="119.647" pruned="25"/>
+		<Output spanningTreeLength="307.161" tourCost="591.335" timeTaken="119.765" pruned="21"/>
+		<Output spanningTreeLength="304.015" tourCost="584.862" timeTaken="119.993" pruned="20"/>
+		<Output spanningTreeLength="305.325" tourCost="460.916" timeTaken="119.111" pruned="20"/>
+	</UninformedSBSstar>
+</Benchmark>

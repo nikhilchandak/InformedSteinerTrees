@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="50" timeLimit="2700" env="SF/triang.dae" robot="SF/robot_cylinder_small.dae" runs="2">
+	<SFFstar>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="2700.05" costOverTime="{2700.05: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="2700.0" costOverTime="{2700.0: 1000000000.0}"/>
+	</SFFstar>
+	<PotentiallyOptimal spanningTreeLength="1118.183" tourCost="2074.656" timeTaken="602.709"/>
+	<LowerBound spanningTreeLength="1006.471" tourCost="2012.941" timeTaken="1"/>
+</Benchmark>

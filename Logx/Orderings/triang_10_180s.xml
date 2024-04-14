@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="180" env="SF/triang.dae" robot="SF/robot_cylinder_small.dae" runs="10">
+	<PotentiallyOptimal spanningTreeLength="389.377" tourCost="658.417" timeTaken="179.858"/>
+	<LowerBound spanningTreeLength="310.91" tourCost="621.82" timeTaken="1"/>
+	<S0>
+		<Output spanningTreeLength="402.835" tourCost="684.332" timeTaken="178.854" pruned="27"/>
+		<Output spanningTreeLength="393.638" tourCost="671.818" timeTaken="178.43" pruned="29"/>
+		<Output spanningTreeLength="401.3" tourCost="675.736" timeTaken="179.953" pruned="27"/>
+		<Output spanningTreeLength="403.098" tourCost="676.295" timeTaken="179.497" pruned="28"/>
+		<Output spanningTreeLength="392.548" tourCost="669.21" timeTaken="178.97" pruned="29"/>
+		<Output spanningTreeLength="398.067" tourCost="673.955" timeTaken="179.956" pruned="28"/>
+		<Output spanningTreeLength="391.416" tourCost="664.539" timeTaken="179.836" pruned="29"/>
+		<Output spanningTreeLength="401.434" tourCost="773.059" timeTaken="178.152" pruned="29"/>
+		<Output spanningTreeLength="395.158" tourCost="669.122" timeTaken="179.289" pruned="28"/>
+		<Output spanningTreeLength="395.385" tourCost="667.328" timeTaken="179.193" pruned="28"/>
+	</S0>
+	<S1>
+		<Output spanningTreeLength="416.201" tourCost="689.925" timeTaken="179.46" pruned="25"/>
+		<Output spanningTreeLength="409.478" tourCost="674.986" timeTaken="179.754" pruned="29"/>
+		<Output spanningTreeLength="411.677" tourCost="698.19" timeTaken="179.144" pruned="27"/>
+		<Output spanningTreeLength="396.307" tourCost="668.693" timeTaken="179.671" pruned="27"/>
+		<Output spanningTreeLength="394.44" tourCost="668.269" timeTaken="179.963" pruned="30"/>
+		<Output spanningTreeLength="388.538" tourCost="653.538" timeTaken="179.415" pruned="28"/>
+		<Output spanningTreeLength="416.284" tourCost="693.87" timeTaken="178.859" pruned="27"/>
+		<Output spanningTreeLength="388.486" tourCost="660.226" timeTaken="179.875" pruned="30"/>
+		<Output spanningTreeLength="396.598" tourCost="670.977" timeTaken="179.827" pruned="29"/>
+		<Output spanningTreeLength="412.672" tourCost="692.879" timeTaken="179.477" pruned="29"/>
+	</S1>
+	<S2>
+		<Output spanningTreeLength="414.152" tourCost="797.31" timeTaken="179.709" pruned="28"/>
+		<Output spanningTreeLength="418.307" tourCost="682.622" timeTaken="179.852" pruned="25"/>
+		<Output spanningTreeLength="399.594" tourCost="676.827" timeTaken="179.776" pruned="29"/>
+		<Output spanningTreeLength="418.145" tourCost="798.913" timeTaken="179.93" pruned="25"/>
+		<Output spanningTreeLength="406.519" tourCost="680.691" timeTaken="179.585" pruned="25"/>
+		<Output spanningTreeLength="423.377" tourCost="725.169" timeTaken="179.271" pruned="25"/>
+		<Output spanningTreeLength="414.111" tourCost="709.102" timeTaken="180.09" pruned="27"/>
+		<Output spanningTreeLength="399.554" tourCost="669.545" timeTaken="179.66" pruned="29"/>
+		<Output spanningTreeLength="409.859" tourCost="692.596" timeTaken="179.991" pruned="27"/>
+		<Output spanningTreeLength="406.377" tourCost="698.704" timeTaken="178.916" pruned="26"/>
+	</S2>
+	<S3>
+		<Output spanningTreeLength="406.639" tourCost="682.528" timeTaken="179.763" pruned="28"/>
+		<Output spanningTreeLength="409.401" tourCost="701.593" timeTaken="178.953" pruned="27"/>
+		<Output spanningTreeLength="410.038" tourCost="694.428" timeTaken="179.586" pruned="28"/>
+		<Output spanningTreeLength="405.303" tourCost="681.352" timeTaken="178.555" pruned="28"/>
+		<Output spanningTreeLength="405.744" tourCost="684.264" timeTaken="179.23" pruned="28"/>
+		<Output spanningTreeLength="410.117" tourCost="683.324" timeTaken="179.964" pruned="28"/>
+		<Output spanningTreeLength="406.357" tourCost="708.267" timeTaken="179.709" pruned="28"/>
+		<Output spanningTreeLength="415.779" tourCost="693.184" timeTaken="179.513" pruned="28"/>
+		<Output spanningTreeLength="409.404" tourCost="688.311" timeTaken="179.974" pruned="28"/>
+		<Output spanningTreeLength="416.925" tourCost="693.942" timeTaken="178.994" pruned="25"/>
+	</S3>
+</Benchmark>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="1200" env="SF/dense_3D.dae" robot="SF/robot_cylinder_small.dae" runs="3" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="5834.021" tourCost="11668.042" timeTaken="1"/>
+	<SFFstar>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1200.01" costOverTime="{1200.01: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1200.0" costOverTime="{1200.0: 1000000000.0}"/>
+		<Output spanningTreeLength="6055.33" tourCost="12110.66" timeTaken="1200.0" costOverTime="{1200.0: 6055.33}"/>
+	</SFFstar>
+	<MultiTRRT>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1800" costOverTime="{1800: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1800" costOverTime="{1800: 1000000000.0}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1800" costOverTime="{1800: 1000000000.0}"/>
+	</MultiTRRT>
+</Benchmark>

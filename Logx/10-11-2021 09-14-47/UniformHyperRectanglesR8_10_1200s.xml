@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="1200" env="8D/UniformHyperRectanglesR8.dae" robot="0D/PointRobot.dae" runs="2" seed="1234">
+	<PotentiallyOptimal spanningTreeLength="7.883" tourCost="10.361" timeTaken="1212.648"/>
+	<LowerBound spanningTreeLength="7.49" tourCost="14.981" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="7.888" tourCost="12.154" timeTaken="1196.678" pruned="30" ellipsesRemaining="6" costOverTime="{35.3018: 8.6254, 35.3019: 8.417, 35.3091: 7.9871, 35.3161: 7.8877, 1196.6681: 7.8877}"/>
+		<Output spanningTreeLength="7.888" tourCost="12.154" timeTaken="1196.494" pruned="30" ellipsesRemaining="6" costOverTime="{35.1691: 8.2853, 35.1697: 8.058, 35.1769: 8.058, 35.1826: 7.8877, 1196.4729: 7.8877}"/>
+	</Ripple>
+	<PRMbaseline>
+		<Output spanningTreeLength="7.888" tourCost="15.775" timeTaken="1200.646" costOverTime="{21.1139: 7.8877, 1198.7906: 7.8877}"/>
+		<Output spanningTreeLength="7.888" tourCost="15.775" timeTaken="1213.728" costOverTime="{20.7313: 7.8877, 1198.356: 7.8877}"/>
+	</PRMbaseline>
+</Benchmark>

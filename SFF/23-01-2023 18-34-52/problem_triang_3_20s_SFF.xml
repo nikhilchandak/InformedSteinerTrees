@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" scale="1">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0.95"/>
+	<Thresholds standard="5"/>
+	<Seed value="1234"/>
+	<Points>
+		<Point coord="[-28.94849690603981; -0.8302050239162924; 38.945086148612155]"/>
+		<Point coord="[-22.718960269446416; -15.83805380403971; 68.32561244632862]"/>
+		<Point coord="[26.704506252796094; -35.21808373504334; 5.7902525426862645]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-49" max="47"/>
+		<RangeY min="-47" max="47"/>
+		<RangeZ min="0" max="100"/>
+	</Range>
+	<Robot file="../Instances/SF/robot_cylinder_small_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/SF/triang_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000000"/>
+	<Time value="20"/>
+	<Save>
+		<Params file="SFF/23-01-2023 18-34-52//triang_3_20s_SFF.csv" id="sff"/>
+		<TSP file="SFF/23-01-2023 18-34-52//tsp.tsp"/>
+	</Save>
+</Problem>

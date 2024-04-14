@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="3" timeLimit="20" env="SF/triang.dae" robot="SF/robot_cylinder_small.dae" runs="2" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="109.724" tourCost="219.449" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="121.699" tourCost="137.043" timeTaken="19.185" costOverTime="{2.6296: 136.7368, 4.4813: 126.2825, 6.3301: 121.6989, 19.1739: 121.6989}"/>
+		<Output spanningTreeLength="129.056" tourCost="139.855" timeTaken="19.216" costOverTime="{2.6097: 150.6191, 4.4383: 140.9302, 6.2751: 139.8555, 8.1011: 138.9089, 11.7681: 135.3538, 15.4769: 135.3538, 15.477: 132.636, 17.3375: 129.1222, 19.2043: 129.0556}"/>
+	</Ripple>
+	<SFFstar>
+		<Output spanningTreeLength="115.869" tourCost="231.738" timeTaken="20.0" costOverTime="{20.0: 115.869}"/>
+		<Output spanningTreeLength="123.102" tourCost="246.204" timeTaken="20.0" costOverTime="{20.0: 123.102}"/>
+	</SFFstar>
+</Benchmark>

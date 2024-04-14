@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<Problem solver="rrt" optimize="false" smoothing="false" scale="10">
+	<ObjectDelimiters standard=" " name="_"/>
+	<Distances dtree="0.5" circum="0.4"/>
+	<Improvements priorityBias="0"/>
+	<Thresholds standard="5"/>
+	<Seed value="1234"/>
+	<Points>
+		<Point coord="[-16.31451831954456; -318.96859771167095; 137.82914106921265]"/>
+		<Point coord="[-71.70956674346644; 129.40918258942162; 104.12282625465951]"/>
+		<Point coord="[-302.4085117341822; 167.03353370113996; 60.02807503973227]"/>
+		<Point coord="[-319.52564175991625; 108.0262161954605; 29.685196214608844]"/>
+		<Point coord="[113.40580222557656; 234.65999053018004; 75.83559306870806]"/>
+		<Point coord="[-207.71425094706765; -124.4524383749426; 32.910517900845576]"/>
+		<Point coord="[194.410573382464; -12.86145981696211; 80.5568730769219]"/>
+		<Point coord="[-75.0666320004118; 135.55835900371102; 111.84051866158232]"/>
+		<Point coord="[-18.604495504982026; 329.1384350140893; 80.55159804859916]"/>
+		<Point coord="[-211.88027328647718; -153.71038810482932; 76.66791634342617]"/>
+	</Points>
+	<Range autoDetect="false">
+		<RangeX min="-384" max="325"/>
+		<RangeY min="-371" max="338"/>
+		<RangeZ min="0" max="142"/>
+	</Range>
+	<Robot file="../Instances/SF/robot_cylinder_small_blender.obj" is_obj="true"/>
+	<Environment collision="0.01">
+		<Obstacle file="../Instances/3D/Home_env_blender.obj" is_obj="true"/>
+	</Environment>
+	<MaxIterations value="1000000"/>
+	<Time value="300"/>
+	<Save>
+		<Params file="SFF/25-01-2023 14-44-48//Home_env_10_300s_RRT.csv" id="rrt"/>
+		<TSP file="SFF/25-01-2023 14-44-48//tsp.tsp"/>
+	</Save>
+</Problem>

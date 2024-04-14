@@ -1,0 +1,296 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="114" env="3D/Apartment_env.dae" robot="3D/Apartment_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>

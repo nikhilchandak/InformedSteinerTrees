@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="1200" env="3D/Abstract_env.dae" robot="3D/Abstract_robot.dae" runs="15" seed="1234">
+	<PotentiallyOptimal/>
+	<LowerBound spanningTreeLength="3099.094" tourCost="6198.188" timeTaken="1"/>
+	<SFFstar>
+		<Output spanningTreeLength="4551.9" tourCost="9103.8" timeTaken="1200.04" costOverTime="{1200.04: 4551.9}"/>
+		<Output spanningTreeLength="4482.16" tourCost="8964.32" timeTaken="1200.0" costOverTime="{1200.0: 4482.16}"/>
+		<Output spanningTreeLength="4412.13" tourCost="8824.26" timeTaken="1200.0" costOverTime="{1200.0: 4412.13}"/>
+		<Output spanningTreeLength="5003.09" tourCost="10006.18" timeTaken="1200.0" costOverTime="{1200.0: 5003.09}"/>
+		<Output spanningTreeLength="5002.79" tourCost="10005.58" timeTaken="1200.0" costOverTime="{1200.0: 5002.79}"/>
+		<Output spanningTreeLength="5190.74" tourCost="10381.48" timeTaken="1200.0" costOverTime="{1200.0: 5190.74}"/>
+		<Output spanningTreeLength="5097.78" tourCost="10195.56" timeTaken="1200.01" costOverTime="{1200.01: 5097.78}"/>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="1200.0" costOverTime="{1200.0: 1000000000.0}"/>
+		<Output spanningTreeLength="5331.55" tourCost="10663.1" timeTaken="1200.0" costOverTime="{1200.0: 5331.55}"/>
+		<Output spanningTreeLength="4840.47" tourCost="9680.94" timeTaken="1200.0" costOverTime="{1200.0: 4840.47}"/>
+		<Output spanningTreeLength="4482.4" tourCost="8964.8" timeTaken="1200.0" costOverTime="{1200.0: 4482.4}"/>
+		<Output spanningTreeLength="4411.28" tourCost="8822.56" timeTaken="1200.0" costOverTime="{1200.0: 4411.28}"/>
+		<Output spanningTreeLength="4411.97" tourCost="8823.94" timeTaken="1200.0" costOverTime="{1200.0: 4411.97}"/>
+		<Output spanningTreeLength="4374.91" tourCost="8749.82" timeTaken="1200.0" costOverTime="{1200.0: 4374.91}"/>
+		<Output spanningTreeLength="4331.64" tourCost="8663.28" timeTaken="1200.0" costOverTime="{1200.0: 4331.64}"/>
+	</SFFstar>
+</Benchmark>

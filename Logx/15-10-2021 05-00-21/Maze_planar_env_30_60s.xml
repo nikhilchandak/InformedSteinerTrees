@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="30" timeLimit="60" env="2D/Maze_planar_env.dae" robot="2D/car2_planar_robot.dae" runs="1">
+	<SFFstar>
+		<Output spanningTreeLength="447.111" tourCost="894.222" timeTaken="32.286" costOverTime="{32.286: 447.111}"/>
+	</SFFstar>
+	<PotentiallyOptimal spanningTreeLength="524.38" tourCost="864.047" timeTaken="60.016"/>
+	<LowerBound spanningTreeLength="408.595" tourCost="817.191" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="518.563" tourCost="863.097" timeTaken="56.603" pruned="355" costOverTime="{8.3259: 530.2909, 14.8678: 530.2909, 14.8679: 527.8516, 14.9184: 527.8516, 14.9185: 527.3316, 14.9186: 527.3316, 14.9187: 523.4248, 14.9534: 523.4248, 14.9583: 522.9114, 14.9661: 522.9114, 14.9662: 522.6832, 15.0803: 522.6832, 15.0922: 522.2664, 20.8939: 522.2664, 20.894: 521.924, 20.895: 521.924, 20.8951: 521.4135, 26.7208: 521.4135, 26.7209: 520.5574, 32.5364: 520.3479, 38.4147: 520.3479, 38.4148: 520.3054, 44.2817: 519.6819, 44.2818: 519.3383, 50.1666: 519.3383, 50.1667: 518.5665, 56.582: 518.5665, 56.5823: 518.563, 56.5996: 518.563}"/>
+	</Ripple>
+	<PRMbaseline>
+		<Output spanningTreeLength="523.081" tourCost="1046.161" timeTaken="56.3" costOverTime="{56.30036640167236: 523.0806958031872}"/>
+	</PRMbaseline>
+</Benchmark>

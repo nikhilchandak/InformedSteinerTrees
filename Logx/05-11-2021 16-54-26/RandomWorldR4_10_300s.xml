@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="300" env="4D/RandomWorldR4.dae" robot="0D/PointRobot.dae" runs="5">
+	<PotentiallyOptimal spanningTreeLength="3.918" tourCost="5.829" timeTaken="309.966"/>
+	<LowerBound spanningTreeLength="3.837" tourCost="7.675" timeTaken="1"/>
+	<Ripple>
+		<Output spanningTreeLength="3.961" tourCost="5.915" timeTaken="300.41" pruned="36" costOverTime="{19.2554: 4.8477, 45.4886: 4.8477, 45.4887: 4.7957, 71.8967: 4.7957, 71.8968: 4.5851, 100.5456: 4.4004, 113.2613: 4.4004, 113.2614: 4.1788, 139.6016: 4.1788, 139.6017: 4.143, 151.6713: 4.143, 151.6715: 4.0849, 175.8906: 3.9865, 188.9729: 3.9856, 275.4535: 3.9607, 299.7776: 3.9607}"/>
+		<Output spanningTreeLength="3.947" tourCost="5.886" timeTaken="292.232" pruned="36" costOverTime="{21.3809: 4.5519, 34.5592: 4.3404, 47.3072: 4.2308, 72.9815: 4.2308, 72.9816: 4.186, 85.4653: 4.152, 97.3949: 3.9805, 109.9434: 3.9484, 292.2289: 3.9465, 292.2291: 3.9465}"/>
+		<Output spanningTreeLength="3.922" tourCost="5.838" timeTaken="289.166" pruned="36" costOverTime="{19.0908: 4.8539, 45.671: 4.8539, 45.6711: 4.8208, 96.2259: 4.8208, 96.226: 4.6371, 126.3411: 4.2153, 140.7065: 4.2122, 166.811: 4.0871, 178.8067: 4.0871, 178.8068: 3.9989, 191.3987: 3.9653, 204.0949: 3.9439, 228.043: 3.9223, 289.1628: 3.9223}"/>
+		<Output spanningTreeLength="3.925" tourCost="5.844" timeTaken="294.435" pruned="36" costOverTime="{17.7508: 4.2909, 46.16: 4.2392, 58.9894: 4.1772, 71.54: 4.1772, 71.5401: 4.0852, 96.7228: 4.0852, 96.7229: 3.9535, 121.6881: 3.9419, 170.7887: 3.9409, 257.463: 3.9262, 282.0746: 3.9262, 282.0747: 3.9253, 294.4317: 3.9253}"/>
+		<Output spanningTreeLength="3.93" tourCost="5.853" timeTaken="290.335" pruned="36" costOverTime="{37.9334: 5.2629, 37.9741: 4.9576, 65.6295: 4.9576, 65.6296: 4.2945, 77.884: 4.2945, 77.8841: 4.2168, 105.0122: 4.2168, 105.0123: 4.13, 130.4972: 4.13, 130.4973: 4.0681, 142.6736: 4.0089, 179.4248: 3.9742, 192.0127: 3.971, 241.3421: 3.971, 241.3422: 3.9589, 253.2754: 3.9332, 290.3324: 3.9299, 290.3326: 3.9299}"/>
+	</Ripple>
+	<PRMbaseline>
+		<Output spanningTreeLength="4.288" tourCost="8.575" timeTaken="304.96" costOverTime="{304.9596838951111: 4.287630033353491}"/>
+		<Output spanningTreeLength="4.29" tourCost="8.58" timeTaken="301.344" costOverTime="{301.3441824913025: 4.290021482252339}"/>
+		<Output spanningTreeLength="4.053" tourCost="8.107" timeTaken="303.447" costOverTime="{303.44730043411255: 4.053487693133622}"/>
+		<Output spanningTreeLength="4.176" tourCost="8.352" timeTaken="301.899" costOverTime="{301.89916253089905: 4.175996616481809}"/>
+		<Output spanningTreeLength="4.292" tourCost="8.584" timeTaken="301.916" costOverTime="{301.91616654396057: 4.292163866673593}"/>
+	</PRMbaseline>
+</Benchmark>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<Problem solver="sff" optimize="true" smoothing="false" dim="2D">
+  <ObjectDelimiters standard=" " name="_"/>
+  <!-- <TSP path="/home/jarajanos/Documents/obst_tsp/obst_tsp" type="Concorde"/> -->
+  <!-- <Robot file=".//models//UniqueSolutionMaze_robot.obj" is_obj="true"/> -->
+  <Robot file=".//models//robot_small.obj" is_obj="true"/>
+  <Environment collision="0.01">
+    <Obstacle file=".//maps//UniqueSolutionMaze_env.obj" is_obj="true" position="[0; 0;0]"/>
+  </Environment>
+  <Points>
+    <Point coord="[43.0009690005283; -43.62070123660409; 0]"/>
+    <Point coord="[-47.25950984226422; -44.166293993959236; 0]"/>
+    <Point coord="[-27.5584286318023; 18.98849267088876; 0]"/>
+    <Point coord="[1.5732651377668248; 26.141034665664876; 0]"/>
+    <!-- <Point coord="[42.55281151136769; 47.192699441349916; 0]"/> -->
+    <!-- <Point coord="[43.14058632604015; 37.38599451678651; 0]"/> -->
+  </Points>
+  <!-- <Range autoDetect="true" /> -->
+  <Range autoDetect="false"> 
+    <RangeX min="-50" max="50" />
+    <RangeY min="-50" max="50" />
+    <RangeZ min="0" max="0" />
+  </Range>
+  <Distances dtree="100" circum="80"/>
+  <!-- <Distances dtree="0.5" circum="0.4"/> -->
+  <Improvements priorityBias="0.95"/>
+  <Thresholds standard="5"/>
+  <MaxIterations value="100000000"/>
+  <MaxIterations value="100000"/>
+  <Save>
+    <Goals file="output//goals.tri" is_obj="false" />
+    <Params file="output//params.csv" id="sff_2D_maze"/>
+    <TSP file="output//tsp.tsp"/>
+    <Tree file="output//tree5_normal_polygons.obj" is_obj="true" everyIteration="0" />
+    <RawPath file="output//rawPath5_normal_polygons.tri" is_obj="false" />
+  </Save>
+</Problem>

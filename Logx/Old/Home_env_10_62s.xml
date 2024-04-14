@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="62" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="1">
+	<Sstar ordering="UB - LB">
+		<Output spanningTreeLength="2175.611" tourCost="4323.598" timeTaken="62.282" pruned="3" optimalEdges="0"/>
+	</Sstar>
+	<SFFstar>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="62.0"/>
+	</SFFstar>
+	<Baseline>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="62.011" optimalEdges="0"/>
+	</Baseline>
+	<PrunedBaseline>
+		<Output spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="62.237"/>
+	</PrunedBaseline>
+	<PotentiallyOptimal spanningTreeLength="1000000000.0" tourCost="1000000000.0" timeTaken="186.272"/>
+	<LowerBound spanningTreeLength="1107.965" tourCost="2215.929" timeTaken="1"/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="62" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<Baseline/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="62" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<Baseline/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="62" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<Baseline/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
+<?xml version="1.0" ?>
+<Benchmark terminals="10" timeLimit="62" env="3D/Home_env.dae" robot="3D/Home_robot.dae" runs="1">
+	<Sstar ordering="UB - LB"/>
+	<SFFstar/>
+	<Baseline/>
+	<PrunedBaseline/>
+	<PotentiallyOptimal/>
+	<LowerBound/>
+</Benchmark>
