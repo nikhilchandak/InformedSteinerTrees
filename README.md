@@ -1,4 +1,4 @@
-# Sampling-Based-Sstar
+# Informed Steiner Trees (IST*) for Multi-Goal Motion Planning 
 
 ## Required Packages 
 
